@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DEKORACJE on Make It Happen</title>
+    <link>http://example.org/decors/</link>
+    <description>Recent content in DEKORACJE on Make It Happen</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="http://example.org/decors/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>DEKORACJE / KRZESŁA</title>
+      <link>http://example.org/decors/category/chairs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/decors/category/chairs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DEKORACJE / METALOWE OKRĘGI</title>
+      <link>http://example.org/decors/category/metal_stuff/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/decors/category/metal_stuff/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
