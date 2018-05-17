@@ -1,0 +1,42 @@
+{{ partial "header.html" . }}
+{{ partial "navbar.html" . }}
+{{ partial "title_products.html" . }}
+
+<div class="container">
+  {{ partial "back.html" . }}
+  <div class="row">
+		<div class="col-md-6">
+  		<div id="makeit-carousel" class="carousel slide" style="max-width:640px" data-ride="carousel">
+        <div class="carousel-inner" role="listbox">
+          {{ $count := len .Params.images }}
+          {{ range $index, $element := .Params.images }}
+            {{ $.Scratch.Set "active" (eq 0 $index) }}
+            {{ $active := $.Scratch.Get "active" }}
+            <div class="item {{ if $active }}active{{end}}">
+              <img  src="{{ $element }}">
+              <div class="carousel-caption makeit-carousel-caption">
+                ZDJĘCIE {{ add $index 1 }}/{{ $count }}
+              </div>
+            </div>
+          {{ end }}
+        </div>
+
+        <a class="left carousel-control makeit-carousel-control" href="#makeit-carousel" role="button" data-slide="prev">
+          <p>&#8592</p>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control makeit-carousel-control" href="#makeit-carousel" role="button" data-slide="next">
+          <p>&#8594</p>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+      <h4 style="padding-top: 45px">Sprawdź dostępność produktu</h4>
+      {{ partial "calendar" . }}
+    </div>
+  	<div class="col-md-6">
+  		{{ .Content }}
+    </div>
+  </div>
+</div>
+
+{{ partial "footer.html" . }}

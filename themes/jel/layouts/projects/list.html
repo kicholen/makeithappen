@@ -1,0 +1,29 @@
+{{ partial "header.html" . }}
+{{ partial "navbar.html" . }}
+{{ partial "title.html" . }}
+
+<div class="container">
+	<div class="row">
+		{{ $count := len .Params.gallery }}
+		    {{ range $index, $element := .Params.gallery }}
+				<div class="col-xs-12 col-sm-6 col-md-3">
+			    {{ with $.Site.GetPage "page" $element }}
+			    	{{ $.Scratch.Set "thumbnail" .Params.thumbnail }}
+					{{ $thumbnail := $.Scratch.Get "thumbnail" }}
+			    		{{ range $image_index, $image := .Params.images }}
+			    			{{ if eq $image_index 0 }}
+				    			<a class="group{{ $index }}" href="{{ $image }}" data-rel="group{{ $index }}">
+				    				<img class="img-responsive center-responsive-gallery-image" src="{{ $thumbnail }}">
+				    			</a>
+		    				{{ else }}
+		      					<a class="group{{ $index }}" href="{{ $image }}" data-rel="group{{ $index }}"></a>
+		      				{{ end }}
+			    		{{ end }}
+		    			<p class="centered-text"  style="padding-bottom: 45px">{{ .Title }}</p>
+		      	{{ end }}
+				</div>
+		    {{ end }}
+	</div>
+</div>
+
+{{ partial "footer.html" . }}

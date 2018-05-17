@@ -1,0 +1,56 @@
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6 col-md-offset-3" style="background-color: #f2f2f2">
+				<div class="col-md-6">
+					<div class="form-group">
+						<label for="fullname">Imię i nazwisko</label>
+					  	<input type="text" class="form-control" id="fullname" placeholder="Wpisz imię i nazwisko">
+					</div>
+
+					<div class="form-group">
+						<label for="email">Email</label>
+					  	<input type="text" class="form-control" id="email" placeholder="Wpisz adres email">
+					</div>
+
+					<div class="form-group">
+						<label for="product">Rodzaj produktu</label>
+						<select class="form-control" id="product" placeholder="Wybierz produkt">		
+							{{ range (where .Site.Pages "Section" "products").ByParam "description" }}
+								{{ if .Params.description }}
+				  					<option>{{ .Params.description }}</option>
+				  				{{ end }}
+				  			{{ end }}
+						</select>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="form-group">
+						<label for="phone">Telefon</label>
+					  	<input type="text" class="form-control" id="phone" placeholder="Podaj nr tel.">
+					</div>
+
+					<div class="form-group">
+						<label>Data uroczystości</label>
+						<div class="row">
+						    <div class='col-md-5'>
+					            <input type="text" class="form-control" id="datetimepicker6"/>
+						    </div>
+						    <div class='col-md-5'>
+					            <input type="text" class="form-control" id="datetimepicker7"/>
+						    </div>
+						</div>
+					</div>
+					<div class="form-group">
+						<label>Ilość sztuk</label>
+					  	<input type="text" class="form-control" id="phone" placeholder="1">
+					</div>
+				</div>
+				<div class="col-md-12">
+					<div class="form-group">
+						<label for="question">Tekst zapytania</label>
+					  	<input type="text" class="form-control" id="question" placeholder="W czym możemy Ci pomóc">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>

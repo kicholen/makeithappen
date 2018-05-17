@@ -1,0 +1,28 @@
+{{ partial "header.html" . }}
+{{ partial "navbar.html" . }}
+{{ partial "title.html" . }}
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-6 col-md-offset-3">
+            {{ .Content }}
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-6 col-sm-6 col-md-3">
+            <img class="img-responsive center-responsive-image" src="{{ .Params.first_thumbnail }}">
+            <img class="img-responsive center-responsive-image" src="{{ .Params.second_thumbnail }}">
+        </div>
+        <div class="col-xs-6 col-sm-6 col-md-3">
+            <img class="img-responsive center-responsive-image-offset" src="{{ .Params.third_thumbnail }}">
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-5 col-md-5-offset" >
+            <h4><b>{{ .Params.question }}</b></h4>
+            {{ range $element := .Params.answers }}
+                <li>{{ $element }}</li>
+            {{ end }}
+        </div>
+    </div>
+</div>
+{{ partial "form.html" . }}
+{{ partial "footer.html" . }}

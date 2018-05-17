@@ -1,0 +1,26 @@
+{{ partial "header.html" . }}
+{{ partial "navbar.html" . }}
+{{ partial "title.html" . }}
+
+<div class="container">
+    <div class="panel-group" id="accordion">
+        {{ range $index, $element := .Params.features }}
+          <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse{{ $index }}">
+                        {{ .title }}
+                    </a>
+                </h4>
+            </div>
+            <div id="collapse{{ $index }}" class="panel-collapse collapse" >
+                <div class="panel-body">
+                    <p>{{ .description }}</p>
+                </div>
+            </div>
+          </div>
+        {{ end }}
+    </div>
+</div>
+{{ partial "form.html" . }}
+{{ partial "footer.html" . }}

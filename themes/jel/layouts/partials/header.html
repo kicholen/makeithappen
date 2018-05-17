@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+<head>
+	{{ partial "meta.html" . }}
+
+	<title>{{ .Title }} - {{ .Site.BaseURL }}</title>
+	<link rel="canonical" href="{{ .Permalink }}">
+    {{ partial "header_includes.html" . }}
+</head>
+<body>

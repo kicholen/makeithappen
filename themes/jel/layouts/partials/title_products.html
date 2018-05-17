@@ -1,0 +1,13 @@
+		<div class="jumbotron" style="{{ if .Params.image }}background:url('{{ .Params.image }}') no-repeat center center; background-size:cover;{{ end }}">
+				<div class="container" style="align-items: center;">
+					{{ if .Description }} 
+						<h6 class="text-center" style="color:{{ if .Params.image }}#ffffff{{ else }}#cacaca{{ end }};">{{ .Description }}</h6>
+					{{ end }}
+					{{ if .Title }} 
+						<h2 class="text-center"{{ if .Params.image }}style="color:#ffffff;"{{ end }}>{{ .Title }}</h2>
+					{{ end }}
+					{{ if .Params.small_description }} 
+						<h6 class="text-center" style="color:{{ if .Params.image }}#ffffff{{ else }}#cacaca{{ end }};">{{ .Params.small_description }}</h6>
+					{{ end }}
+				</div>
+		</div>

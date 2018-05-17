@@ -1,0 +1,21 @@
+{{ partial "header.html" . }}
+{{ partial "navbar.html" . }}
+{{ partial "title.html" . }}
+
+<div class="container">
+	{{ partial "back.html" . }}
+    <div class="row">
+	    {{ range $element := .Params.products }}
+			<div class="col-md-3">
+		    {{ with $.Site.GetPage "page" $element }}
+		    	<a href="{{ .URL }}">
+	    			<img style="max-width:350px; max-height:100px" src="{{ .Params.thumbnail }}">
+	    		</a>
+	    		<p>{{ .Title }}</p>
+	      	{{ end }}
+	      	</div>
+	    {{ end }}
+	</div>
+</div>
+{{ partial "form.html" . }}
+{{ partial "footer.html" . }}

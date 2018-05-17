@@ -1,0 +1,3 @@
+[
+	{{ if .Params.booked_dates }}{{ range $index, $e := .Params.booked_dates }}{{ if $index }},{{ end }}"{{ dateFormat "2006-01-02" $e.date }}"{{ end }}{{ end }}
+]

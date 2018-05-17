@@ -1,0 +1,11 @@
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav navbar-right">
+                {{ range .Site.Menus.main }}
+                    {{ $.Scratch.Set "active" (eq .Identifier $.Type) }}
+                    {{ $active := $.Scratch.Get "active" }}
+                    <li class="nav-item {{ if $active }}active{{end}}">
+                        <a class="nav-link" href="{{ .URL | absLangURL  }}">{{ .Title  }}</a>
+                    </li>
+                {{ end }}
+            </ul>
+        </div>

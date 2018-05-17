@@ -1,0 +1,58 @@
+{{ partial "header.html" . }}
+{{ partial "navbar.html" . }}
+	<div class="jumbotron">
+		<div class="container">
+			<div class="row">
+            	<div class="col-md-7">
+        			<img class="img-responsive home-center-responsive-image" src="{{ .Params.about_image }}">
+				</div>
+				<div class="col-md-3 home-col-md-3">
+					<h6 style="color:#cacaca;">{{ .Params.about_title }}</h6>
+					<h2>{{ .Params.about_description }}</h2>
+					<a href="{{ .Params.about_url | absLangURL  }}">{{ .Params.more_text  }}</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+<div class="container">
+	<div class="row row-home-decors">
+    	<div class="col-md-6 home-decors-offset">
+			<h6 style="color:#cacaca;">{{ .Params.decors_title }}</h6>
+			<h2>{{ .Params.decors_description }}</h2>
+			<h5 style="color:#cacaca;">{{ .Params.decors_complex_description }}</h5>
+			<a href="{{ .Params.decors_url | absLangURL  }}">{{ .Params.more_text  }}</a>
+		</div>
+		<div class="col-xs-6 col-sm-6 col-md-3">
+			<img class="img-responsive" src="{{ .Params.decors_image_first }}">
+			<h4 class="centered-text">{{ .Params.decors_title_first }}</h4>
+			<img class="img-responsive" src="{{ .Params.decors_image_third }}">
+			<h4 class="centered-text">{{ .Params.decors_title_third }}</h4>
+		</div>
+        <div class="col-xs-6 col-sm-6 col-md-3">
+            <img class="img-responsive home-decors-responsive-image-offset" src="{{ .Params.decors_image_second }}">
+			<h4 class="centered-text-home-decors">{{ .Params.decors_title_second }}</h4>
+            <img class="img-responsive home-decors-responsive-image-offset" src="{{ .Params.decors_image_fourth }}">
+			<h4 class="centered-text-home-decors">{{ .Params.decors_title_fourth }}</h4>
+        </div>
+	</div>
+
+	<div class="row row-home-how" style="padding-bottom: 120px">
+        <div class="col-xs-6 col-sm-6 col-md-3">
+            <img class="img-responsive center-responsive-image" src="{{ .Params.how_image_first }}">
+            <img class="img-responsive center-responsive-image" src="{{ .Params.how_image_second }}">
+        </div>
+        <div class="col-xs-6 col-sm-6 col-md-3">
+            <img class="img-responsive center-responsive-image-offset" src="{{ .Params.how_image_third }}">
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-5 col-md-5-offset" >
+			<h6 style="color:#cacaca;">{{ .Params.how_title }}</h6>
+			<h2>{{ .Params.how_description }}</h2>
+			<h5 style="color:#cacaca;">{{ .Params.how_complex_description }}</h5>
+			<a href="{{ .Params.how_url | absLangURL  }}">{{ .Params.more_text  }}</a>
+        </div>
+
+	</div>
+</div>
+{{ partial "form.html" . }}
+{{ partial "footer.html" . }}

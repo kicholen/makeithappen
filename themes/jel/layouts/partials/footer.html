@@ -1,0 +1,19 @@
+    <footer class="footer" style="{{ if .IsHome }}transform: translateY(90px);{{ end }}">
+	    <div class="container">
+    		<a href="{{ .Site.BaseURL }}">
+                <img style="max-width:200px; max-height:60px;" src="/images/makeitlogo.PNG">
+            </a>
+    		{{ range .Site.Menus.main }}
+                <a class="nav-link" href="{{ .URL | absLangURL  }}">{{ .Title  }}</a>
+            {{ end }}
+	    </div>
+    </footer>
+	<script src="/js/jquery-1.11.3.min.js"></script>
+    <script src="/js/bootstrap.js"></script>
+    <script src="/js/jelly.js"></script>
+    <script src="/js/zabuto_calendar.js"></script>
+    <script src="/js/jquery.colorbox-min.js"></script>
+    <script src="/js/moment.js"></script>
+    <script src="/js/bootstrap-datetimepicker.min.js"></script>
+</body>
+</html>
