@@ -26,5 +26,5 @@ collections:
             name: "answers"
             widget: "list"
             fields:
-              - {label: "Answer", name: "answer", widget: "string"}
+              - {label: "Answer", name: "text", widget: "string"}
   
