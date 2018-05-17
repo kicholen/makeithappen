@@ -13,6 +13,7 @@ answers:
   - text: >-
       3Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut volutpat
       maximus lacinia.
+  - text: last
   - text: >-
       5Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut volutpat
       maximus lacinia.
@@ -22,6 +23,5 @@ answers:
   - text: >-
       9Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut volutpat
       maximus lacinia.
-  - text: last
 ---
 
