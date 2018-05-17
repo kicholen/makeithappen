@@ -8,11 +8,11 @@ second_thumbnail: "/images/about_second.png"
 third_thumbnail: "/images/about_third.png"
 question: "Co zrobimy dla Ciebie?"
 answers:
-  - "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut volutpat maximus lacinia."
-  - "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut volutpat maximus lacinia."
-  - "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut volutpat maximus lacinia."
-  - "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut volutpat maximus lacinia."
-  - "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut volutpat maximus lacinia."
+- text: "1Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut volutpat maximus lacinia."
+- text: "3Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut volutpat maximus lacinia."
+- text: "5Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut volutpat maximus lacinia."
+- text: "7Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut volutpat maximus lacinia."
+- text: "9Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut volutpat maximus lacinia."
 ---
 
 ## Czym są dekoracje dla Make it happen?
