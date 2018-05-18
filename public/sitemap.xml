@@ -12,14 +12,6 @@
   </url>
   
   <url>
-    <loc>http://example.org/decors/category/chairs/</loc>
-  </url>
-  
-  <url>
-    <loc>http://example.org/decors/category/metal_stuff/</loc>
-  </url>
-  
-  <url>
     <loc>http://example.org/how/</loc>
   </url>
   
@@ -42,10 +34,6 @@
   <url>
     <loc>http://example.org/tags/</loc>
     <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.org/projects/gallery/last_wedding/</loc>
   </url>
   
 </urlset>

@@ -7,7 +7,7 @@
 		{{ $count := len .Params.gallery }}
 		    {{ range $index, $element := .Params.gallery }}
 				<div class="col-xs-12 col-sm-6 col-md-3">
-			    {{ with $.Site.GetPage "page" $element }}
+			    {{ with $.Site.GetPage "page" $element.path }}
 			    	{{ $.Scratch.Set "thumbnail" .Params.thumbnail }}
 					{{ $thumbnail := $.Scratch.Get "thumbnail" }}
 			    		{{ range $image_index, $image := .Params.images }}

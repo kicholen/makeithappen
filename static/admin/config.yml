@@ -27,29 +27,29 @@ collections:
         widget: "list"
         fields:
         - {label: "Date", name: "date", widget: "date"}
-    - label: "Gallery"
-      name: "gallery"
-      folder: "content/projects/gallery"
-      create: true
-      fields:
-        - {label: "Title", name: "title", widget: "string"}
-        - {label: "Thumbnail", name: "thumbnail", widget: "image"}
-        - label: "Images"
-          name: "images"
-          widget: "list"
-          fields:
-            - {label: "Image", name: "image", widget: "image"}
-    - label: "Category"
-      name: "category"
-      folder: "content/decors/category"
-      create: true
-      fields:
-        - {label: "Title", name: "title", widget: "string"}
-        - {label: "Description", name: "description", widget: "string"}
-        - {label: "Small_Description", name: "small_description", widget: "string"}
-        - {label: "Thumbnail", name: "thumbnail", widget: "image", required: true}
-        - {label: "Poprzedni url", name: "back_url", widget: "string"}
-        - {label: "Products", name: "products", widget: "relation", collection: "products", searchFields: ["title"], valueField: "name"}
+  - label: "Gallery"
+    name: "gallery"
+    folder: "content/projects/gallery"
+    create: true
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Thumbnail", name: "thumbnail", widget: "image", required: true}
+      - label: "Images"
+        name: "images"
+        widget: "list"
+        fields:
+          - {label: "Image", name: "image", widget: "image"}
+  - label: "Category"
+    name: "category"
+    folder: "content/decors/category"
+    create: true
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Description", name: "description", widget: "string"}
+      - {label: "Small_Description", name: "small_description", widget: "string"}
+      - {label: "Thumbnail", name: "thumbnail", widget: "image", required: true}
+      - {label: "Poprzedni url", name: "back_url", widget: "string"}
+      - {label: "Products", name: "products", widget: "relation", collection: "products", searchFields: ["title"], valueField: "name"}
   - name: "pages"
     label: "Pages"
     files:
@@ -89,7 +89,11 @@ collections:
           - {label: "Description", name: "description", widget: "string", required: false}
           - {label: "Small_Description", name: "small_description", widget: "string", required: false}
           - {label: "Background_Image", name: "image", widget: "image", required: false}
-          - {label: "Galleries", name: "gallery", widget: "relation", collection: "gallery", searchFields: ["title"], valueField: "name"}
+          - label: "Galleries"
+            name: "gallery"
+            widget: "list"
+            fields:
+              - {label: Path, name: path, widget: relation, collection: gallery, searchFields: [title], valueField: name}
       - label: "How page"
         name: "how"
         file: "content/how/_index.md"
