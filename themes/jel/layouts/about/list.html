@@ -19,7 +19,7 @@
         <div class="col-xs-12 col-sm-12 col-md-5 col-md-5-offset" >
             <h4><b>{{ .Params.question }}</b></h4>
             {{ range $element := .Params.answers }}
-                <li>{{ $element }}</li>
+                <li>{{ $element.text }}</li>
             {{ end }}
         </div>
     </div>

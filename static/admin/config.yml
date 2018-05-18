@@ -7,6 +7,49 @@ media_folder: "static/images"
 public_folder: "images"
 
 collections:
+  - label: "Products"
+    name: "products"
+    folder: "content/products"
+    create: true
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Description", name: "description", widget: "string"}
+      - {label: "Small_Description", name: "small_description", widget: "string"}
+      - {label: "Thumbnail", name: "thumbnail", widget: "image", required: true}
+      - {label: "Poprzedni url", name: "back_url", widget: "string"}
+      - label: "Images"
+        name: "images"
+        widget: "list"
+        fields:
+          - {label: "Image", name: "image", widget: "image"}
+      - label: "Booked_dates"
+        name: "booked_dates"
+        widget: "list"
+        fields:
+        - {label: "Date", name: "date", widget: "date"}
+    - label: "Gallery"
+      name: "gallery"
+      folder: "content/projects/gallery"
+      create: true
+      fields:
+        - {label: "Title", name: "title", widget: "string"}
+        - {label: "Thumbnail", name: "thumbnail", widget: "image"}
+        - label: "Images"
+          name: "images"
+          widget: "list"
+          fields:
+            - {label: "Image", name: "image", widget: "image"}
+    - label: "Category"
+      name: "category"
+      folder: "content/decors/category"
+      create: true
+      fields:
+        - {label: "Title", name: "title", widget: "string"}
+        - {label: "Description", name: "description", widget: "string"}
+        - {label: "Small_Description", name: "small_description", widget: "string"}
+        - {label: "Thumbnail", name: "thumbnail", widget: "image", required: true}
+        - {label: "Poprzedni url", name: "back_url", widget: "string"}
+        - {label: "Products", name: "products", widget: "relation", collection: "products", searchFields: ["title"], valueField: "name"}
   - name: "pages"
     label: "Pages"
     files:
@@ -16,9 +59,9 @@ collections:
         create: false
         fields:
           - {label: "Title", name: "title", widget: "string"}
-          - {label: "Description", name: "description", widget: "string"}
-          - {label: "Small_Description", name: "small_description", widget: "string"}
-          - {label: "Background_Image", name: "image", widget: "image"}
+          - {label: "Description", name: "description", widget: "string", required: false}
+          - {label: "Small_Description", name: "small_description", widget: "string", required: false}
+          - {label: "Background_Image", name: "image", widget: "image", required: false}
           - {label: "First_image", name: "first_thumbnail", widget: "image"}
           - {label: "Second_Image", name: "second_thumbnail", widget: "image"}
           - {label: "Third_Image", name: "third_thumbnail", widget: "image"}
@@ -27,4 +70,40 @@ collections:
             widget: "list"
             fields:
               - {label: "Answer", name: "text", widget: "string"}
+      - label: "Decors page"
+        name: "decors"
+        file: "content/decors/_index.md"
+        create: false
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Description", name: "description", widget: "string", required: false}
+          - {label: "Small_Description", name: "small_description", widget: "string", required: false}
+          - {label: "Background_Image", name: "image", widget: "image", required: false}
+          - {label: "Categories", name: "category", widget: "relation", collection: "category", searchFields: ["title"], valueField: "name"}
+      - label: "Projects page"
+        name: "projects"
+        file: "content/projects/_index.md"
+        create: false
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Description", name: "description", widget: "string", required: false}
+          - {label: "Small_Description", name: "small_description", widget: "string", required: false}
+          - {label: "Background_Image", name: "image", widget: "image", required: false}
+          - {label: "Galleries", name: "gallery", widget: "relation", collection: "gallery", searchFields: ["title"], valueField: "name"}
+      - label: "How page"
+        name: "how"
+        file: "content/how/_index.md"
+        create: false
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Description", name: "description", widget: "string", required: false}
+          - {label: "Small_Description", name: "small_description", widget: "string", required: false}
+          - {label: "Background_Image", name: "image", widget: "image", required: false}
+          - label: "Features"
+            name: "features"
+            widget: "list"
+            fields:
+              - {label: Title, name: title, widget: string}
+              - {label: Description, name: description, widget: text}
+
   
