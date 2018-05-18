@@ -13,8 +13,8 @@ collections:
     create: true
     fields:
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Description", name: "description", widget: "string"}
-      - {label: "Small_Description", name: "small_description", widget: "string"}
+      - {label: "Description", name: "description", widget: "string", required: false}
+      - {label: "Small_Description", name: "small_description", widget: "string", required: false}
       - {label: "Thumbnail", name: "thumbnail", widget: "image", required: true}
       - {label: "Poprzedni url", name: "back_url", widget: "string"}
       - label: "Images"
@@ -45,11 +45,20 @@ collections:
     create: true
     fields:
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Description", name: "description", widget: "string"}
-      - {label: "Small_Description", name: "small_description", widget: "string"}
+      - {label: "Description", name: "description", widget: "string", required: false}
+      - {label: "Small_Description", name: "small_description", widget: "string", required: false}
       - {label: "Thumbnail", name: "thumbnail", widget: "image", required: true}
       - {label: "Poprzedni url", name: "back_url", widget: "string"}
-      - {label: "Products", name: "products", widget: "relation", collection: "products", searchFields: ["title"], valueField: "name"}
+      - label: Products
+        name: products
+        widget: list
+        fields:
+          - label: Path
+            name: path
+            widget: relation
+            collection: products
+            searchFields: [title]
+            valueField: title
   - name: "pages"
     label: "Pages"
     files:
@@ -102,7 +111,7 @@ collections:
             name: "gallery"
             widget: "list"
             fields:
-              - {label: Path, name: path, widget: relation, collection: gallery, searchFields: [title], valueField: name}
+              - {label: Path, name: path, widget: relation, collection: gallery, searchFields: [title], valueField: title}
       - label: "How page"
         name: "how"
         file: "content/how/_index.md"

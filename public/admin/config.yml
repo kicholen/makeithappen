@@ -13,8 +13,8 @@ collections:
     create: true
     fields:
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Description", name: "description", widget: "string"}
-      - {label: "Small_Description", name: "small_description", widget: "string"}
+      - {label: "Description", name: "description", widget: "string", required: false}
+      - {label: "Small_Description", name: "small_description", widget: "string", required: false}
       - {label: "Thumbnail", name: "thumbnail", widget: "image", required: true}
       - {label: "Poprzedni url", name: "back_url", widget: "string"}
       - label: "Images"
@@ -45,11 +45,16 @@ collections:
     create: true
     fields:
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Description", name: "description", widget: "string"}
-      - {label: "Small_Description", name: "small_description", widget: "string"}
+      - {label: "Description", name: "description", widget: "string", required: false}
+      - {label: "Small_Description", name: "small_description", widget: "string", required: false}
       - {label: "Thumbnail", name: "thumbnail", widget: "image", required: true}
       - {label: "Poprzedni url", name: "back_url", widget: "string"}
-      - {label: "Products", name: "products", widget: "relation", collection: "products", searchFields: ["title"], valueField: "name"}
+      - label: Products
+        name: products
+        widget: relation
+        collection: products
+        searchFields: title
+        valueField: title
   - name: "pages"
     label: "Pages"
     files:
@@ -79,7 +84,16 @@ collections:
           - {label: "Description", name: "description", widget: "string", required: false}
           - {label: "Small_Description", name: "small_description", widget: "string", required: false}
           - {label: "Background_Image", name: "image", widget: "image", required: false}
-          - {label: "Categories", name: "category", widget: "relation", collection: "category", searchFields: ["title"], valueField: "name"}
+          - label: Categories
+            name: category
+            widget: list
+            fields:
+              - label: Category
+                name: path
+                widget: relation
+                collection: category
+                searchFields: [title]
+                valueField: title
       - label: "Projects page"
         name: "projects"
         file: "content/projects/_index.md"

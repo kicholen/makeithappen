@@ -3,6 +3,10 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://example.org/products/ameryka%C5%84skie-krzes%C5%82a-chiavari/</loc>
+  </url>
+  
+  <url>
     <loc>http://example.org/categories/</loc>
     <priority>0</priority>
   </url>
@@ -29,6 +33,11 @@
   
   <url>
     <loc>http://example.org/projects/gallery/last_session/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/products/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
