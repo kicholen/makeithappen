@@ -3,7 +3,8 @@ title: Amerykańskie Krzesła chiavari
 description: DEKORACJE / Krzesła
 small_description: ' a'
 thumbnail: /images/product_chair_first.png
-back_url: decors/category/chairs/
+back_url: decors/category/krzesła/
+content: Opis krzeseł
 images:
   - image: /images/product_chair_first.png
   - image: /images/product_chair_first.png
