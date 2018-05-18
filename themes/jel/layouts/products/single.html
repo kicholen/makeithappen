@@ -13,7 +13,7 @@
             {{ $.Scratch.Set "active" (eq 0 $index) }}
             {{ $active := $.Scratch.Get "active" }}
             <div class="item {{ if $active }}active{{end}}">
-              <img  src="{{ $element }}">
+              <img  src="{{ $element.image }}">
               <div class="carousel-caption makeit-carousel-caption">
                 ZDJĘCIE {{ add $index 1 }}/{{ $count }}
               </div>

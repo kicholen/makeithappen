@@ -3,45 +3,49 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://example.org/products/ameryka%C5%84skie-krzes%C5%82a-chiavari/</loc>
+    <loc>https://thirsty-euler-c41f2b.netlify.com/products/ameryka%C5%84skie-krzes%C5%82a-chiavari/</loc>
   </url>
   
   <url>
-    <loc>http://example.org/categories/</loc>
+    <loc>https://thirsty-euler-c41f2b.netlify.com/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/decors/</loc>
+    <loc>https://thirsty-euler-c41f2b.netlify.com/decors/</loc>
   </url>
   
   <url>
-    <loc>http://example.org/how/</loc>
+    <loc>https://thirsty-euler-c41f2b.netlify.com/how/</loc>
   </url>
   
   <url>
-    <loc>http://example.org/</loc>
+    <loc>https://thirsty-euler-c41f2b.netlify.com/decors/category/krzes%C5%82a/</loc>
   </url>
   
   <url>
-    <loc>http://example.org/projects/</loc>
+    <loc>https://thirsty-euler-c41f2b.netlify.com/</loc>
   </url>
   
   <url>
-    <loc>http://example.org/about/</loc>
+    <loc>https://thirsty-euler-c41f2b.netlify.com/projects/</loc>
   </url>
   
   <url>
-    <loc>http://example.org/projects/gallery/last_session/</loc>
+    <loc>https://thirsty-euler-c41f2b.netlify.com/about/</loc>
   </url>
   
   <url>
-    <loc>http://example.org/products/</loc>
+    <loc>https://thirsty-euler-c41f2b.netlify.com/projects/gallery/last_session/</loc>
+  </url>
+  
+  <url>
+    <loc>https://thirsty-euler-c41f2b.netlify.com/products/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/tags/</loc>
+    <loc>https://thirsty-euler-c41f2b.netlify.com/tags/</loc>
     <priority>0</priority>
   </url>
   

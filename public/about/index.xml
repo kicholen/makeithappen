@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>O NAS on Make It Happen</title>
-    <link>http://example.org/about/</link>
+    <link>https://thirsty-euler-c41f2b.netlify.com/about/</link>
     <description>Recent content in O NAS on Make It Happen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="http://example.org/about/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://thirsty-euler-c41f2b.netlify.com/about/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
