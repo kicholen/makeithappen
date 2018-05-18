@@ -17,6 +17,7 @@ collections:
       - {label: Small_Description, name: small_description, widget: string, required: false}
       - {label: Thumbnail, name: thumbnail, widget: image, required: true}
       - {label: Poprzedni url, name: back_url, widget: string}
+      - {label: Content, name: content, widget: markdown}
       - label: Images
         name: images
         widget: list
@@ -24,6 +25,7 @@ collections:
           - {label: Image, name: image, widget: image}
       - label: Booked_dates
         name: booked_dates
+        required: false
         widget: list
         fields:
         - {label: Date, name: date, widget: date}
@@ -74,6 +76,7 @@ collections:
           - {label: First_image, name: first_thumbnail, widget: image}
           - {label: Second_Image, name: second_thumbnail, widget: image}
           - {label: Third_Image, name: third_thumbnail, widget: image}
+          - {label: Content, name: content, widget: markdown}
           - label: Answers
             name: answers
             widget: list
