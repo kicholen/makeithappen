@@ -79,7 +79,16 @@ collections:
           - {label: "Description", name: "description", widget: "string", required: false}
           - {label: "Small_Description", name: "small_description", widget: "string", required: false}
           - {label: "Background_Image", name: "image", widget: "image", required: false}
-          - {label: "Categories", name: "category", widget: "relation", collection: "category", searchFields: ["title"], valueField: "name"}
+          - label: Categories
+            name: category
+            widget: list
+            fields:
+              - label: Category
+                name: path
+                widget: relation
+                collection: category
+                searchFields: [title]
+                valueField: title
       - label: "Projects page"
         name: "projects"
         file: "content/projects/_index.md"
