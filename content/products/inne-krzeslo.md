@@ -2,7 +2,6 @@
 title: Inne krzeslo
 description: To lepsze
 thumbnail: /images/about_first.png
-back_url: decors/category/krzesła/
 content: Tu jest info co i jak
 images:
   - image: /images/product_chair_first.png

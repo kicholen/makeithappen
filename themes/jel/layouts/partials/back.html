@@ -1,5 +1,21 @@
-{{ if .Params.back_url }}
-	<a class="makeit-back" href="{{ .Params.back_url | absLangURL}}">
-		<h6>&#8592 POWRÓT DO DEKORACJE</h6>
-	</a>
+{{ $.Scratch.Set "titleKey" .Title }}
+{{ $titleValue := $.Scratch.Get "titleKey" }}
+{{ range where $.Site.Pages "Params.products" "!=" nil }}
+	{{ $.Scratch.Set "urlKey" .URL }}
+	{{ $urlValue := $.Scratch.Get "urlKey" }}
+	{{ range $element := .Params.products }}
+		{{ if eq $element.path $titleValue }}
+			{{ $.Scratch.Set "backKey" $urlValue }}
+		{{ end }}
+	{{ end }}
 {{ end }}
+
+{{ $backValue := $.Scratch.Get "backKey" }}
+{{ if $backValue }}
+	<a class="makeit-back" href="{{ $backValue | absLangURL }}">
+{{ else }}
+	{{ $backValue := "decors" }}
+	<a class="makeit-back" href="{{ $backValue | absLangURL }}">
+{{ end }}
+	<h6>&#8592 POWRÓT DO DEKORACJE</h6>
+</a>
