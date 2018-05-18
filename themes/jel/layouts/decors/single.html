@@ -7,7 +7,7 @@
     <div class="row">
 	    {{ range $element := .Params.products }}
 			<div class="col-md-3">
-		    {{ with $.Site.GetPage "page" $element }}
+			{{ range where $.Site.Pages "Params.title" $element.path }}
 		    	<a href="{{ .URL }}">
 	    			<img style="max-width:350px; max-height:100px" src="{{ .Params.thumbnail }}">
 	    		</a>

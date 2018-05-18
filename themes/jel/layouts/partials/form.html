@@ -15,9 +15,9 @@
 					<div class="form-group">
 						<label for="product">Rodzaj produktu</label>
 						<select class="form-control" id="product" placeholder="Wybierz produkt">		
-							{{ range (where .Site.Pages "Section" "products").ByParam "description" }}
-								{{ if .Params.description }}
-				  					<option>{{ .Params.description }}</option>
+							{{ range (where .Site.Pages "Section" "products").ByParam "title" }}
+								{{ if .Params.title }}
+				  					<option>{{ .Params.title }}</option>
 				  				{{ end }}
 				  			{{ end }}
 						</select>

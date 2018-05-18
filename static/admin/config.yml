@@ -3,52 +3,52 @@ backend:
   branch: master
   
 publish_mode: editorial_workflow
-media_folder: "static/images"
-public_folder: "images"
+media_folder: static/images
+public_folder: images
 
 collections:
-  - label: "Products"
-    name: "products"
-    folder: "content/products"
+  - label: Products
+    name: products
+    folder: content/products
     create: true
     fields:
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Description", name: "description", widget: "string", required: false}
-      - {label: "Small_Description", name: "small_description", widget: "string", required: false}
-      - {label: "Thumbnail", name: "thumbnail", widget: "image", required: true}
-      - {label: "Poprzedni url", name: "back_url", widget: "string"}
-      - label: "Images"
-        name: "images"
-        widget: "list"
+      - {label: Title, name: title, widget: string}
+      - {label: Description, name: description, widget: string, required: false}
+      - {label: Small_Description, name: small_description, widget: string, required: false}
+      - {label: Thumbnail, name: thumbnail, widget: image, required: true}
+      - {label: Poprzedni url, name: back_url, widget: string}
+      - label: Images
+        name: images
+        widget: list
         fields:
-          - {label: "Image", name: "image", widget: "image"}
-      - label: "Booked_dates"
-        name: "booked_dates"
-        widget: "list"
+          - {label: Image, name: image, widget: image}
+      - label: Booked_dates
+        name: booked_dates
+        widget: list
         fields:
-        - {label: "Date", name: "date", widget: "date"}
-  - label: "Gallery"
-    name: "gallery"
-    folder: "content/projects/gallery"
+        - {label: Date, name: date, widget: date}
+  - label: Gallery
+    name: gallery
+    folder: content/projects/gallery
     create: true
     fields:
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Thumbnail", name: "thumbnail", widget: "image", required: true}
-      - label: "Images"
-        name: "images"
-        widget: "list"
+      - {label: Title, name: title, widget: string}
+      - {label: Thumbnail, name: thumbnail, widget: image, required: true}
+      - label: Images
+        name: images
+        widget: list
         fields:
-          - {label: "Image", name: "image", widget: "image"}
-  - label: "Category"
-    name: "category"
-    folder: "content/decors/category"
+          - {label: Image, name: image, widget: image}
+  - label: Category
+    name: category
+    folder: content/decors/category
     create: true
     fields:
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Description", name: "description", widget: "string", required: false}
-      - {label: "Small_Description", name: "small_description", widget: "string", required: false}
-      - {label: "Thumbnail", name: "thumbnail", widget: "image", required: true}
-      - {label: "Poprzedni url", name: "back_url", widget: "string"}
+      - {label: Title, name: title, widget: string}
+      - {label: Description, name: description, widget: string, required: false}
+      - {label: Small_Description, name: small_description, widget: string, required: false}
+      - {label: Thumbnail, name: thumbnail, widget: image, required: true}
+      - {label: Poprzedni url, name: back_url, widget: string}
       - label: Products
         name: products
         widget: list
@@ -57,37 +57,37 @@ collections:
             name: path
             widget: relation
             collection: products
-            searchFields: [title]
+            searchFields: [description, title]
             valueField: title
-  - name: "pages"
-    label: "Pages"
+  - name: pages
+    label: Pages
     files:
-      - label: "About page"
-        name: "about"
-        file: "content/about/_index.md"
+      - label: About page
+        name: about
+        file: content/about/_index.md
         create: false
         fields:
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Description", name: "description", widget: "string", required: false}
-          - {label: "Small_Description", name: "small_description", widget: "string", required: false}
-          - {label: "Background_Image", name: "image", widget: "image", required: false}
-          - {label: "First_image", name: "first_thumbnail", widget: "image"}
-          - {label: "Second_Image", name: "second_thumbnail", widget: "image"}
-          - {label: "Third_Image", name: "third_thumbnail", widget: "image"}
-          - label: "Answers"
-            name: "answers"
-            widget: "list"
+          - {label: Title, name: title, widget: string}
+          - {label: Description, name: description, widget: string, required: false}
+          - {label: Small_Description, name: small_description, widget: string, required: false}
+          - {label: Background_Image, name: image, widget: image, required: false}
+          - {label: First_image, name: first_thumbnail, widget: image}
+          - {label: Second_Image, name: second_thumbnail, widget: image}
+          - {label: Third_Image, name: third_thumbnail, widget: image}
+          - label: Answers
+            name: answers
+            widget: list
             fields:
-              - {label: "Answer", name: "text", widget: "string"}
-      - label: "Decors page"
-        name: "decors"
-        file: "content/decors/_index.md"
+              - {label: Answer, name: text, widget: string}
+      - label: Decors page
+        name: decors
+        file: content/decors/_index.md
         create: false
         fields:
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Description", name: "description", widget: "string", required: false}
-          - {label: "Small_Description", name: "small_description", widget: "string", required: false}
-          - {label: "Background_Image", name: "image", widget: "image", required: false}
+          - {label: Title, name: title, widget: string}
+          - {label: Description, name: description, widget: string, required: false}
+          - {label: Small_Description, name: small_description, widget: string, required: false}
+          - {label: Background_Image, name: image, widget: image, required: false}
           - label: Categories
             name: category
             widget: list
@@ -96,36 +96,65 @@ collections:
                 name: path
                 widget: relation
                 collection: category
-                searchFields: [title]
+                searchFields: [title, description]
                 valueField: title
-      - label: "Projects page"
-        name: "projects"
-        file: "content/projects/_index.md"
+      - label: Projects page
+        name: projects
+        file: content/projects/_index.md
         create: false
         fields:
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Description", name: "description", widget: "string", required: false}
-          - {label: "Small_Description", name: "small_description", widget: "string", required: false}
-          - {label: "Background_Image", name: "image", widget: "image", required: false}
-          - label: "Galleries"
-            name: "gallery"
-            widget: "list"
+          - {label: Title, name: title, widget: string}
+          - {label: Description, name: description, widget: string, required: false}
+          - {label: Small_Description, name: small_description, widget: string, required: false}
+          - {label: Background_Image, name: image, widget: image, required: false}
+          - label: Gallery
+            name: gallery
+            widget: list
             fields:
               - {label: Path, name: path, widget: relation, collection: gallery, searchFields: [title], valueField: title}
-      - label: "How page"
-        name: "how"
-        file: "content/how/_index.md"
+      - label: How page
+        name: how
+        file: content/how/_index.md
         create: false
         fields:
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Description", name: "description", widget: "string", required: false}
-          - {label: "Small_Description", name: "small_description", widget: "string", required: false}
-          - {label: "Background_Image", name: "image", widget: "image", required: false}
-          - label: "Features"
-            name: "features"
-            widget: "list"
+          - {label: Title, name: title, widget: string}
+          - {label: Description, name: description, widget: string, required: false}
+          - {label: Small_Description, name: small_description, widget: string, required: false}
+          - {label: Background_Image, name: image, widget: image, required: false}
+          - label: Features
+            name: features
+            widget: list
             fields:
               - {label: Title, name: title, widget: string}
               - {label: Description, name: description, widget: text}
+      - label: Home page
+        name: home
+        file: content/_index.md
+        create: false
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: About_image, name: about_image, widget: image}
+          - {label: About_title, name: about_title, widget: string}
+          - {label: About_url, name: about_url, widget: string}
+          - {label: Decors_title, name: decors_title, widget: string}
+          - {label: Decors_description, name: decors_description, widget: string}
+          - {label: Decors_complex_description, name: decors_complex_description, widget: text}
+          - {label: Decors_url, name: decors_url, widget: string}
+          - {label: Decors_image_first, name: decors_image_first, widget: image}
+          - {label: Decors_title_first, name: decors_title_first, widget: string}
+          - {label: Decors_image_second, name: decors_image_second, widget: image}
+          - {label: Decors_title_second, name: decors_title_second, widget: string}
+          - {label: Decors_image_third, name: decors_image_third, widget: image}
+          - {label: Decors_title_third, name: decors_title_third, widget: string}
+          - {label: Decors_image_fourth, name: decors_image_fourth, widget: image}
+          - {label: Decors_title_fourth, name: decors_title_fourth, widget: string}
+          - {label: How_title, name: how_title, widget: string}
+          - {label: How_description, name: how_description, widget: string}
+          - {label: How_complex_description, name: how_complex_description, widget: string}
+          - {label: How_url, name: how_url, widget: string}
+          - {label: How_image_first, name: how_image_first, widget: image}
+          - {label: How_image_second, name: how_image_second, widget: image}
+          - {label: How_image_third, name: how_image_third, widget: image}
+          - {label: More_text, name: more_text, widget: string}
 
   
