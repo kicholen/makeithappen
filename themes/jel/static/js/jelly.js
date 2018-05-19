@@ -1,4 +1,7 @@
 (function($) {
+    var cacheMap = {};
+    var current;
+
     "use strict";
 
     $('#makeitNav').affix({
@@ -45,29 +48,63 @@
             height: window.innerHeight > parseInt(galleryOptions.maxHeight) ? galleryOptions.maxHeight : galleryOptions.height
           });
       });
-    });
-    var dateTimeOptions = {
 
-    }
-    $(function () {
-      $('#datetimepicker6').datetimepicker({
-        format: 'DD/MM/YYYY',
-        minDate: moment()
-      });
-      $('#datetimepicker7').datetimepicker({
-        format: 'DD/MM/YYYY',
-        useCurrent: false //Important! See issue #1075
-      });
+      $(function () {
+        $('#product').on('change', function(e) {
+            $('#datetimepicker_from').data("DateTimePicker").clear();
+            $('#datetimepicker_to').data("DateTimePicker").clear();
+            var url = this.options[this.selectedIndex].getAttribute("data") + "index.json";
+            console.log(url);
+            current = url;
+            if (cacheMap[url])
+            {
+              $('#datetimepicker_from').data("DateTimePicker").disabledDates(cacheMap[url]);
+              $('#datetimepicker_to').data("DateTimePicker").disabledDates(cacheMap[url]);
+            }
+            else
+            {
+              $.ajax({
+                type: 'GET',
+                url: url,
+                dataType: 'json'
+              }).done(function (response) {
+                $.each(response, function (k, v) {
+                  response[k] = moment(response[k]);
+                });
+                cacheMap[url] = response;
+                $('#datetimepicker_from').data("DateTimePicker").disabledDates(response);
+                $('#datetimepicker_to').data("DateTimePicker").disabledDates(response);
+              });
+            }
+        });
 
-      $("#datetimepicker6").on("dp.show", function (e) {
-          $('#datetimepicker6').data("DateTimePicker").clear();
-          $('#datetimepicker7').data("DateTimePicker").clear();
-      });
-      $("#datetimepicker6").on("dp.change", function (e) {
-          $('#datetimepicker7').data("DateTimePicker").minDate(e.date);
-      });
-      $("#datetimepicker7").on("dp.change", function (e) {
-          $('#datetimepicker6').data("DateTimePicker").maxDate(e.date);
+        $('#datetimepicker_from').datetimepicker({
+          format: 'DD/MM/YYYY',
+          minDate: moment()
+        });
+
+        $('#datetimepicker_to').datetimepicker({
+          format: 'DD/MM/YYYY',
+          minDate: moment(),
+          useCurrent: false //Important! See issue #1075
+        });
+
+        $("#datetimepicker_from").on("dp.change", function (e) {
+            $('#datetimepicker_to').data("DateTimePicker").clear();
+            if (cacheMap[current]) 
+            {
+              var list = cacheMap[current];
+              var min = null;
+              for (var val in list) {
+                if (list[val] > e.date && (min == null || list[val] < min))
+                  min = list[val];
+              }
+              console.log(min);
+              if (min)
+                $('#datetimepicker_to').data("DateTimePicker").maxDate(min);
+            }
+            $('#datetimepicker_to').data("DateTimePicker").minDate(e.date);
+        });
       });
     });
 })(jQuery);

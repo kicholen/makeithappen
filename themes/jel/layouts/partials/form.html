@@ -1,56 +1,62 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-6 col-md-offset-3" style="background-color: #f2f2f2">
-				<div class="col-md-6">
-					<div class="form-group">
-						<label for="fullname">Imię i nazwisko</label>
-					  	<input type="text" class="form-control" id="fullname" placeholder="Wpisz imię i nazwisko">
-					</div>
+				<form name="submit" netlify>
+					<div class="col-md-6">
+						<div class="form-group">
+							<label for="fullname">Imię i nazwisko</label>
+						  	<input type="text" class="form-control" id="fullname" placeholder="Wpisz imię i nazwisko">
+						</div>
 
-					<div class="form-group">
-						<label for="email">Email</label>
-					  	<input type="text" class="form-control" id="email" placeholder="Wpisz adres email">
-					</div>
+						<div class="form-group">
+							<label for="email">Email</label>
+						  	<input type="text" class="form-control" id="email" placeholder="Wpisz adres email">
+						</div>
 
-					<div class="form-group">
-						<label for="product">Rodzaj produktu</label>
-						<select class="form-control" id="product" placeholder="Wybierz produkt">		
-							{{ range (where .Site.Pages "Section" "products").ByParam "title" }}
-								{{ if .Params.title }}
-				  					<option>{{ .Params.title }}</option>
-				  				{{ end }}
-				  			{{ end }}
-						</select>
-					</div>
-				</div>
-				<div class="col-md-6">
-					<div class="form-group">
-						<label for="phone">Telefon</label>
-					  	<input type="text" class="form-control" id="phone" placeholder="Podaj nr tel.">
-					</div>
-
-					<div class="form-group">
-						<label>Data uroczystości</label>
-						<div class="row">
-						    <div class='col-md-5'>
-					            <input type="text" class="form-control" id="datetimepicker6"/>
-						    </div>
-						    <div class='col-md-5'>
-					            <input type="text" class="form-control" id="datetimepicker7"/>
-						    </div>
+						<div class="form-group">
+							<label for="product">Rodzaj produktu</label>
+							<select class="form-control" id="product" placeholder="Wybierz produkt">
+								<option hidden>Wybierz produkt</option>
+								{{ range (where .Site.Pages "Section" "products").ByParam "title" }}
+									{{ if .Params.title }}
+					  					<option data="{{ .URL | absLangURL }}">{{ .Params.title }}</option>
+					  				{{ end }}
+					  			{{ end }}
+							</select>
 						</div>
 					</div>
-					<div class="form-group">
-						<label>Ilość sztuk</label>
-					  	<input type="text" class="form-control" id="phone" placeholder="1">
+					<div class="col-md-6">
+						<div class="form-group">
+							<label for="phone">Telefon</label>
+						  	<input type="text" class="form-control" id="phone" placeholder="Podaj nr tel.">
+						</div>
+
+						<div class="form-group">
+							<label>Data uroczystości</label>
+							<div class="row">
+							    <div class='col-md-5'>
+						            <input type="text" class="form-control" id="datetimepicker_from"/>
+							    </div>
+							    <div class='col-md-5'>
+						            <input type="text" class="form-control" id="datetimepicker_to"/>
+							    </div>
+							</div>
+						</div>
+						<div class="form-group">
+							<label>Ilość sztuk</label>
+						  	<input type="text" class="form-control" id="count" placeholder="1">
+						</div>
 					</div>
-				</div>
-				<div class="col-md-12">
-					<div class="form-group">
-						<label for="question">Tekst zapytania</label>
-					  	<input type="text" class="form-control" id="question" placeholder="W czym możemy Ci pomóc">
+					<div class="col-md-12">
+						<div class="form-group">
+							<label for="question">Tekst zapytania</label>
+						  	<input type="text" class="form-control" id="question" placeholder="W czym możemy Ci pomóc">
+						</div>
 					</div>
-				</div>
+					<div class="col-md-3 col-md-offset-9">
+	        			<button id="submit" class="btn btn-primary" type="submit">Wyślij zapytanie</button>
+					</div>
+				</form>
 			</div>
 		</div>
 	</div>
