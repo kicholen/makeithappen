@@ -2,7 +2,7 @@ const nodemailer = require('nodemailer');
 const smtpTransport = require('nodemailer-smtp-transport');
 
 exports.handler = function(event, context, callback) {
-    if (context.httpMethod !== "POST") {
+    if (event.context["http-method"] !== "POST") {
         console.log('HTTP method:', context.httpMethod);
         callback(null, {
             statusCode: 405,
