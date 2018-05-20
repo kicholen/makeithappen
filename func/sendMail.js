@@ -9,7 +9,6 @@ exports.handler = function(event, context, callback) {
             pass: process.env.MAIL_PASS
         }
     }));
-
     transporter.sendMail({
         from: process.env.MAIL_LOGIN,
         to: process.env.MAIL_TO,
