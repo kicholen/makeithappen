@@ -170,7 +170,7 @@
         $.ajax({
             type: "POST",
             url: ".netlify/functions/sendMail",
-            data: $(this).serialize(),
+            data: dataToSend,
             success: function(data, text, xhr) {
               console.log(data);
               console.log(text);
