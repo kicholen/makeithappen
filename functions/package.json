@@ -1,0 +1,8 @@
+{
+  "name": "functions",
+  "description": "functions",
+  "dependencies": {
+    "nodemailer": "^4.6.4",
+    "nodemailer-smtp-transport": "^2.7.4"
+  }
+}

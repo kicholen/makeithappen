@@ -1,7 +1,7 @@
-exports.handler = function(event, context, callback) {
-    var nodemailer = require('nodemailer');
-    var smtpTransport = require('nodemailer-smtp-transport');
+const nodemailer = require('nodemailer');
+const smtpTransport = require('nodemailer-smtp-transport');
 
+exports.handler = function(event, context, callback) {
     var transporter = nodemailer.createTransport(smtpTransport({
         service: 'gmail',
         auth: {
