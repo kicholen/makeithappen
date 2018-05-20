@@ -1,7 +1,7 @@
 [build]
 publish = "public"
 functions = "functions"
-command = "hugo && cd functions && npm install && cd .. && netlify-lambda build functions"
+command = "hugo && cd func && npm install && cd .. && netlify-lambda build func"
 
 [context.production.environment]
 HUGO_VERSION = "0.39"
