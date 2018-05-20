@@ -15,6 +15,7 @@
     <link href="/css/zabuto_calendar.css" rel="stylesheet">
     <link href="/css/colorbox.css" rel="stylesheet">
     <link href="/css/bootstrap-datetimepicker.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Poppins:400,700" rel="stylesheet">
 
 </head>
 <body>
@@ -85,12 +86,12 @@
 <div class="container">
 	<div class="row">
 	    
-			<div class="col-md-3">
+			<div class="col-xs-6 col-sm-6 col-md-3">
 			
 		    	<a href="/decors/category/krzes%C5%82a/">
-	    			<img style="max-width:350px; max-height:100px" src="/images/home_decors_first.png">
+	    			<img class="img-responsive center-responsive-gallery-image" src="/images/home_decors_first.png">
 	    		</a>
-	    		<p>Krzesła</p>
+	    		<p class="centered-text" style="padding-bottom: 45px">Krzesła</p>
 	      	
 	      	</div>
 	    
@@ -99,62 +100,68 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-6 col-md-offset-3" style="background-color: #f2f2f2">
-				<div class="col-md-6">
-					<div class="form-group">
-						<label for="fullname">Imię i nazwisko</label>
-					  	<input type="text" class="form-control" id="fullname" placeholder="Wpisz imię i nazwisko">
-					</div>
+				<form id="contact-form">
+					<div class="col-md-6">
+						<div class="form-group">
+							<label for="contact-fullname">Imię i nazwisko</label>
+						  	<input type="text" class="form-control" id="contact-fullname" placeholder="Wpisz imię i nazwisko">
+						</div>
 
-					<div class="form-group">
-						<label for="email">Email</label>
-					  	<input type="text" class="form-control" id="email" placeholder="Wpisz adres email">
-					</div>
+						<div class="form-group">
+							<label for="contact-email">Email</label>
+						  	<input type="text" class="form-control" id="contact-email" placeholder="Wpisz adres email">
+						</div>
 
-					<div class="form-group">
-						<label for="product">Rodzaj produktu</label>
-						<select class="form-control" id="product" placeholder="Wybierz produkt">		
-							
+						<div class="form-group">
+							<label for="contact-product">Rodzaj produktu</label>
+							<select class="form-control" id="contact-product" placeholder="Wybierz produkt">
+								<option hidden>Wybierz produkt</option>
 								
-				  					<option>Amerykańskie Krzesła chiavari</option>
-				  				
-				  			
-								
-				  					<option>Inne krzeslo</option>
-				  				
-				  			
-								
-				  			
-						</select>
-					</div>
-				</div>
-				<div class="col-md-6">
-					<div class="form-group">
-						<label for="phone">Telefon</label>
-					  	<input type="text" class="form-control" id="phone" placeholder="Podaj nr tel.">
-					</div>
-
-					<div class="form-group">
-						<label>Data uroczystości</label>
-						<div class="row">
-						    <div class='col-md-5'>
-					            <input type="text" class="form-control" id="datetimepicker6"/>
-						    </div>
-						    <div class='col-md-5'>
-					            <input type="text" class="form-control" id="datetimepicker7"/>
-						    </div>
+									
+					  					<option data="https://thirsty-euler-c41f2b.netlify.com/products/ameryka%C5%84skie-krzes%C5%82a-chiavari/">Amerykańskie Krzesła chiavari</option>
+					  				
+					  			
+									
+					  					<option data="https://thirsty-euler-c41f2b.netlify.com/products/inne-krzeslo/">Inne krzeslo</option>
+					  				
+					  			
+									
+					  			
+							</select>
 						</div>
 					</div>
-					<div class="form-group">
-						<label>Ilość sztuk</label>
-					  	<input type="text" class="form-control" id="phone" placeholder="1">
+					<div class="col-md-6">
+						<div class="form-group">
+							<label for="contact-phone">Telefon</label>
+						  	<input type="text" class="form-control" id="contact-phone" placeholder="Podaj nr tel.">
+						</div>
+
+						<div class="form-group">
+							<label>Data uroczystości</label>
+							<div class="row">
+							    <div class='col-md-5'>
+						            <input type="text" class="form-control" id="datetimepicker_from"/>
+							    </div>
+							    <div class='col-md-5'>
+						            <input type="text" class="form-control" id="datetimepicker_to"/>
+							    </div>
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="contact-count">Ilość sztuk</label>
+						  	<input type="text" class="form-control" id="contact-count" placeholder="1">
+						</div>
 					</div>
-				</div>
-				<div class="col-md-12">
-					<div class="form-group">
-						<label for="question">Tekst zapytania</label>
-					  	<input type="text" class="form-control" id="question" placeholder="W czym możemy Ci pomóc">
+					<div class="col-md-12">
+						<div class="form-group">
+							<label for="contact-question">Tekst zapytania</label>
+						  	<input type="text" class="form-control" id="contact-question" placeholder="W czym możemy Ci pomóc">
+						</div>
 					</div>
-				</div>
+					<div class="col-md-3 col-md-offset-9">
+	        			<button id="submit" class="btn btn-primary" type="submit">Wyślij zapytanie</button>
+					</div>
+				</form>
 			</div>
 		</div>
 	</div>

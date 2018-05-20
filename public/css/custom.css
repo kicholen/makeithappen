@@ -4,7 +4,8 @@ html {
 }
 
 body {
-    font-family: Merriweather,'Helvetica Neue',Arial,sans-serif;
+    font-family: 'Lora', serif;
+    font-family: 'Poppins', sans-serif !important;
     margin-bottom: 60px;
 }
 

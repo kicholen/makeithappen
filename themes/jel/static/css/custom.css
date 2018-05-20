@@ -4,7 +4,8 @@ html {
 }
 
 body {
-    font-family: Merriweather,'Helvetica Neue',Arial,sans-serif;
+    font-family: 'Lora', serif;
+    font-family: 'Poppins', sans-serif !important;
     margin-bottom: 60px;
 }
 
@@ -384,4 +385,14 @@ ul.makeit-legend li.reserved {
 .center-responsive-gallery-image {
   margin: 0 auto;
   padding-bottom: 5px;
+}
+
+/* form */
+.alert-fixed {
+    position:fixed; 
+    top: 0px; 
+    left: 0px; 
+    width: 100%;
+    z-index:9999; 
+    border-radius:0px
 }
