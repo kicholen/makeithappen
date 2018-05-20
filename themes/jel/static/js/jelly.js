@@ -177,7 +177,7 @@
               console.log(xhr);
 
               var alertBox = '<div id="jelly-alert" class="alert alert-success alert-dismissable alert-fixed"><button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>Wysłano!</div>';
-              $('#contact-form').find('.messages').html(alertBox);
+              $('#messages').html(alertBox);
               $("#jelly-alert").delay(3000).slideUp(200, function() {
                 $(this).alert('close');
               });
