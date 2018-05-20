@@ -13,7 +13,7 @@ exports.handler = function(event, context, callback) {
     transporter.sendMail({
         from: process.env.MAIL_LOGIN,
         to: process.env.MAIL_TO,
-        subject: process.env.SUBJECT,
+        subject: process.env.SUBJECT + new Date().toLocaleString(),
         text: event.body
     }, function(error, info) {
     	if (error) {
