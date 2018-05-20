@@ -2,14 +2,6 @@ const nodemailer = require('nodemailer');
 const smtpTransport = require('nodemailer-smtp-transport');
 
 exports.handler = function(event, context, callback) {
-    if (event.context["http-method"] !== "POST") {
-        console.log('HTTP method:', context.httpMethod);
-        callback(null, {
-            statusCode: 405,
-            body: "Method not allowed"
-        });
-        return;
-    }
     var transporter = nodemailer.createTransport(smtpTransport({
         service: 'gmail',
         auth: {
