@@ -74,11 +74,7 @@ collections:
           - {label: Second_Image, name: second_thumbnail, widget: image}
           - {label: Third_Image, name: third_thumbnail, widget: image}
           - {label: Content, name: content, widget: markdown}
-          - label: Answers
-            name: answers
-            widget: list
-            fields:
-              - {label: Answer, name: text, widget: string}
+          - {label: Right_Content, name: right_content, widget: markdown}
       - label: Decors page
         name: decors
         file: content/decors/_index.md
@@ -126,7 +122,7 @@ collections:
             widget: list
             fields:
               - {label: Title, name: title, widget: string}
-              - {label: Description, name: description, widget: text}
+              - {label: Description, name: description, widget: markdown}
       - label: Home page
         name: home
         file: content/_index.md

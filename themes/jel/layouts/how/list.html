@@ -15,7 +15,7 @@
             </div>
             <div id="collapse{{ $index }}" class="panel-collapse collapse" >
                 <div class="panel-body">
-                    <p>{{ .description }}</p>
+                    <p>{{ .description | markdownify }}</p>
                 </div>
             </div>
           </div>

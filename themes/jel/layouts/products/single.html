@@ -34,7 +34,7 @@
       {{ partial "calendar" . }}
     </div>
   	<div class="col-md-6">
-  		{{ .Params.content }}
+  		{{ .Params.content | markdownify }}
     </div>
   </div>
 </div>

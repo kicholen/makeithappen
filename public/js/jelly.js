@@ -159,7 +159,9 @@
         if (!isFullNameValid || !isEmailValid || !isProductValid || !isFromDateValid || !isToDateValid)
           return;
 
+        var submitText = $('#submit').text();
         $('#submit').addClass("disabled");
+        $('#submit').text("Wysyłam");
 
         var dataToSend = "Imię i nazwisko: " + isFullNameValid + '\n'
           + "Email: " + $('#contact-email').val()  + '\n'
@@ -186,6 +188,7 @@
               });
               $('#contact-form')[0].reset();
               $('#submit').removeClass("disabled");
+              $('#submit').text(submitText);
             },
             error: function(data, text, error) {
               console.log(data);
@@ -194,6 +197,7 @@
               var alertBox = '<div id="jelly-alert" class="alert alert-warning alert-dismissable alert-fixed"><button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>Oops, wystąpił błąd, przepraszamy.</div>';
               $('#messages').html(alertBox);
               $('#submit').removeClass("disabled");
+              $('#submit').text(submitText);
               $("#jelly-alert").delay(3000).slideUp(200, function() {
                 $(this).alert('close');
               });

@@ -5,7 +5,7 @@
 <div class="container">
     <div class="row">
         <div class="col-md-6 col-md-offset-3">
-            {{ .Params.content }}
+            {{ .Params.content | markdownify }}
         </div>
     </div>
     <div class="row">
@@ -17,7 +17,7 @@
             <img class="img-responsive center-responsive-image-offset" src="{{ .Params.third_thumbnail }}">
         </div>
         <div class="col-xs-12 col-sm-12 col-md-5 col-md-5-offset" >
-            {{ .Params.right_content }}
+            {{ .Params.right_content | markdownify }}
         </div>
     </div>
 </div>
