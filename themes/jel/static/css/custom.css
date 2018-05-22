@@ -278,6 +278,9 @@ body {
   transform: translateY(75px);
 }
 
+.home-form {
+}
+
 @media (max-width: 991px) {
   .home-center-responsive-image {
     max-height: 300px;
@@ -304,6 +307,10 @@ body {
 
   .row-home-how {
     transform: translateY(150px);
+  }
+
+  .home-form {
+    transform: translateY(50px);
   }
 }
 
@@ -388,6 +395,11 @@ ul.makeit-legend li.reserved {
 }
 
 /* form */
+.form-column {
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+
 .alert-fixed {
     position:fixed; 
     top: 0px; 
@@ -395,4 +407,61 @@ ul.makeit-legend li.reserved {
     width: 100%;
     z-index:9999; 
     border-radius:0px
+}
+
+.btn-primary,
+.btn-primary:hover, 
+.btn-primary:active, 
+.btn-primary:focus {
+  transform: translateX(-20px);
+  padding-right: 40px;
+  padding-left: 40px;
+  box-shadow: none;
+  background-color: #ffffff;
+  border: none;
+  color: #000000;
+}
+
+.btn-primary:active {
+  background-color: rgb(204, 204, 204) !important;
+  color: #ffffff !important;
+}
+
+.btn-form {
+}
+
+.form-control {
+    color: black;
+    border: none;
+    border-bottom-width: 1px;
+    border-bottom-color: rgb(204, 204, 204);
+    border-bottom-style: solid;
+    background-color: #ffffff00;
+    box-shadow: none;
+}
+
+.form-control:focus {
+    border-color: black;
+    box-shadow: none;
+}
+
+.has-error .form-control {
+    box-shadow: none;
+}
+
+.has-error .form-control:focus {
+    box-shadow: none;
+}
+
+@media (max-width: 991px) {
+  .form-column {
+    padding-top: 10px;
+    padding-bottom: 20px;
+  }
+  .btn-primary,
+  .btn-primary:hover, 
+  .btn-primary:active, 
+  .btn-primary:focus {
+    transform: none;
+  }
 }

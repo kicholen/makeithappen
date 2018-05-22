@@ -51,8 +51,9 @@
 			<h5 style="color:#cacaca;">{{ .Params.how_complex_description }}</h5>
 			<a href="{{ .Params.how_url | absLangURL  }}">{{ .Params.more_text  }}</a>
         </div>
-
 	</div>
 </div>
-{{ partial "form.html" . }}
+<div class="container home-form">
+	{{ partial "form.html" . }}
+</div>
 {{ partial "footer.html" . }}
