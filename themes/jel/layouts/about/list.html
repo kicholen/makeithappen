@@ -17,10 +17,7 @@
             <img class="img-responsive center-responsive-image-offset" src="{{ .Params.third_thumbnail }}">
         </div>
         <div class="col-xs-12 col-sm-12 col-md-5 col-md-5-offset" >
-            <h4><b>{{ .Params.question }}</b></h4>
-            {{ range $element := .Params.answers }}
-                <li>{{ $element.text }}</li>
-            {{ end }}
+            {{ .Params.right_content }}
         </div>
     </div>
 </div>
