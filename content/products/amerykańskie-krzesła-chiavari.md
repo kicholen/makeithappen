@@ -1,8 +1,9 @@
 ---
-title: Amerykańskie Krzesła chiavari
+title: Amerykańskie Krzesła Chiavari
 description: DEKORACJE / Krzesła
-small_description: ' a'
+small_description: ''
 thumbnail: /images/product_chair_first.png
+content: "Chiavari. Chyba nie trzeba ich przedstawiać. Marzy o nich każda Panna Młoda podążająca za obowiązującymi trendami.\r\n\nZawitały na polskie salony prosto ze Stanów Zjednoczonych, skutecznie detronizując pokrowce na krzesła. Od kilku sezonów są absolutnym hitem. To po prostu Must have  każdego eventu, tak łatwe do zdobycia z Make it happen.\r\n\nNadają szyku i elegancji każdemu wnętrzu. Czy ich przeznaczeniem jest wyłącznie dekoracja sali weselnej? Oczywiście, że nie! Sprawdzą się idealnie na rodzinnych uroczystościach, imprezach firmowych czy eventach.\r\n\n* wymiary: 91cm (wysokość krzesła) x 43cm (wysokość siedziska) x 40cm (szerokość siedziska) x 40cm (głębokość siedziska)\r\n* kolor: szampański\r\n* materiał: drewno bukowe\r\n* siedzisko: przymocowane do krzesła, wykonane z eko skóry w kolorze kości słoniowej                  \r\n* dostępna ilość: 207 sztuk (minimalna ilość krzeseł do jednorazowego wypożyczenia to 50 sztuk)\r\n* cena wypożyczenia: 25,00 zł/ sztuka\r\n* transport krzeseł na terenie Wrocławia - gratis, poza terenem Wrocławia wyceniany jest indywidualnie\r\n* istnieje możliwość odbioru osobistego\r\n* sprawdź dostępność w kalendarzu i dokonaj wstępnej rezerwacji\r\n* więcej informacji znajdziesz w zakładce [JAK DZIAŁAMY\r](/how)"
 images:
   - image: /images/product_chair_first.png
   - image: /images/product_chair_first.png
