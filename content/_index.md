@@ -23,5 +23,5 @@ how_url: "/decors"
 how_image_first: "/images/home_how_first.png"
 how_image_second: "/images/home_how_second.png"
 how_image_third: "/images/home_how_third.png"
-more_text: "Więcej"
+more_text: "WIĘCEJ"
 ---

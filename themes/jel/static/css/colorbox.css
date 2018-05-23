@@ -37,9 +37,9 @@
         /* avoid outlines on :active (mouseclick), but preserve outlines on :focus (tabbed navigating) */
         #cboxPrevious:active, #cboxNext:active, #cboxSlideshow:active, #cboxClose:active {outline:0;}
 
-        #cboxPrevious{background-position:0px 0px; right:44px;}
+        #cboxPrevious{background-position:0px 0px; left:44px;}
         #cboxPrevious:hover{background-position:0px -25px;}
-        #cboxNext{background-position:-25px 0px; right:22px;}
+        #cboxNext{background-position:-25px 0px; right:44px;}
         #cboxNext:hover{background-position:-25px -25px;}
         #cboxClose{background-position:-50px 0px; right:0;}
         #cboxClose:hover{background-position:-50px -25px;}

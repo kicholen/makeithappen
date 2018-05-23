@@ -281,6 +281,42 @@ body {
 .home-form {
 }
 
+.btn-home,
+.btn-home:hover, 
+.btn-home:active, 
+.btn-home:focus {
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-size: 11px;
+  z-index: 0;
+  transform: translateX(-20px);
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: #000000;
+  padding-right: 40px;
+  padding-left: 40px;
+  box-shadow: none;
+  background-color: rgb(214, 214, 214);
+  border: none;
+}
+
+.btn-home:hover,
+.btn-home:active {
+  background-color: rgb(150, 150, 150) !important;
+  color: #000000 !important;
+}
+
+.button-wrapper:before {
+  content:" ";
+  width: 25px;
+  height: 1px;
+  vertical-align: super;
+  background-color: black;
+  display:inline-block;
+  z-index: 1;
+  position: relative;
+}
+
 @media (max-width: 991px) {
   .home-center-responsive-image {
     max-height: 300px;
@@ -409,10 +445,10 @@ ul.makeit-legend li.reserved {
     border-radius:0px
 }
 
-.btn-primary,
-.btn-primary:hover, 
-.btn-primary:active, 
-.btn-primary:focus {
+.btn-form,
+.btn-form:hover, 
+.btn-form:active, 
+.btn-form:focus {
   transform: translateX(-20px);
   padding-right: 40px;
   padding-left: 40px;
@@ -422,12 +458,10 @@ ul.makeit-legend li.reserved {
   color: #000000;
 }
 
-.btn-primary:active {
+.btn-form:hover,
+.btn-form:active {
   background-color: rgb(204, 204, 204) !important;
   color: #ffffff !important;
-}
-
-.btn-form {
 }
 
 .form-control {
@@ -458,10 +492,24 @@ ul.makeit-legend li.reserved {
     padding-top: 10px;
     padding-bottom: 20px;
   }
-  .btn-primary,
-  .btn-primary:hover, 
-  .btn-primary:active, 
-  .btn-primary:focus {
+  .btn-form,
+  .btn-form:hover, 
+  .btn-form:active, 
+  .btn-form:focus {
     transform: none;
   }
+}
+
+/* global text */
+h2 {
+  font-family: "Lora"
+}
+
+h6 {
+  letter-spacing: 1px;
+  color:#cacaca;
+}
+
+h5 {
+  color: rgb(150, 150, 150);
 }

@@ -22,6 +22,7 @@ body {
 /* navbar */
 
 .makeit-navbar-image {
+  letter-spacing: 2px;
 	background-color: transparent;
   font-size: 11px;
   -webkit-transition: all .35s;
@@ -33,7 +34,7 @@ body {
 .makeit-navbar-image .navbar-nav>li>a:active {
     padding-top: 20px;
     padding-bottom: 20px;
-    padding-right: 10px;
+    padding-right: 25px;
     color: #ffffff;
     line-height: 10px;
     font-weight: bold;
@@ -83,6 +84,7 @@ body {
 /* navbar without image */
 
 .makeit-navbar {
+  letter-spacing: 2px;
   background-color: #f2f2f2;
   font-size: 11px;
   -webkit-transition: all .35s;
@@ -94,7 +96,7 @@ body {
 .makeit-navbar .navbar-nav>li>a:active {
     padding-top: 20px;
     padding-bottom: 20px;
-    padding-right: 10px;
+    padding-right: 25px;
     color: #000000;
     line-height: 10px;
     font-weight: bold;
@@ -225,7 +227,8 @@ body {
 .center-responsive-image-offset {
   margin: 0 auto;
   padding-bottom: 25px;
-  transform: translate(0%, 30%);
+  margin-top: 30%;
+  margin-bottom: 30%;
 }
 
 .center-responsive-image {
@@ -281,9 +284,65 @@ body {
 .home-form {
 }
 
+.btn-home,
+.btn-home:hover, 
+.btn-home:active, 
+.btn-home:focus {
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-size: 11px;
+  z-index: 0;
+  margin-left: -20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: #000000;
+  padding-right: 40px;
+  padding-left: 40px;
+  box-shadow: none;
+  background-color: rgb(214, 214, 214);
+  border: none;
+}
+
+.btn-home:hover,
+.btn-home:active {
+  background-color: rgb(150, 150, 150) !important;
+  color: #000000 !important;
+}
+
+.button-home-wrapper:before {
+  margin-top: 30px;
+  content:" ";
+  width: 25px;
+  height: 1px;
+  vertical-align: super;
+  background-color: black;
+  display:inline-block;
+  z-index: 1;
+  position: relative;
+}
+
 @media (max-width: 991px) {
   .home-center-responsive-image {
     max-height: 300px;
+  }
+  .row.row-home-how {
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+
+    direction: rtl;
+  }
+
+  .row.row-home-how > [class*="col-"] {
+    -webkit-transform: rotate(-180deg);
+    -moz-transform: rotate(-180deg);
+    -ms-transform: rotate(-180deg);
+    -o-transform: rotate(-180deg);
+    transform: rotate(-180deg);
+
+    direction: ltr;
   }
 }
 
@@ -409,11 +468,16 @@ ul.makeit-legend li.reserved {
     border-radius:0px
 }
 
-.btn-primary,
-.btn-primary:hover, 
-.btn-primary:active, 
-.btn-primary:focus {
-  transform: translateX(-20px);
+.btn-form,
+.btn-form:hover, 
+.btn-form:active, 
+.btn-form:focus {
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-size: 11px;
+  z-index: 0;
+  margin-left: -20px;
+  margin-right: 20px;
   padding-right: 40px;
   padding-left: 40px;
   box-shadow: none;
@@ -422,12 +486,21 @@ ul.makeit-legend li.reserved {
   color: #000000;
 }
 
-.btn-primary:active {
+.btn-form:hover,
+.btn-form:active {
   background-color: rgb(204, 204, 204) !important;
   color: #ffffff !important;
 }
 
-.btn-form {
+.button-form-wrapper:before {
+  content:" ";
+  width: 25px;
+  height: 1px;
+  vertical-align: super;
+  background-color: black;
+  display:inline-block;
+  z-index: 1;
+  position: relative;
 }
 
 .form-control {
@@ -455,13 +528,45 @@ ul.makeit-legend li.reserved {
 
 @media (max-width: 991px) {
   .form-column {
-    padding-top: 10px;
-    padding-bottom: 20px;
+    padding-top: 15px;
+    padding-bottom: 60px;
   }
-  .btn-primary,
-  .btn-primary:hover, 
-  .btn-primary:active, 
-  .btn-primary:focus {
+  .btn-form,
+  .btn-form:hover, 
+  .btn-form:active, 
+  .btn-form:focus {
     transform: none;
   }
+}
+
+/* global text */
+h2 {
+  margin-top: 0px;
+  font-family: "Lora"
+}
+
+h6 {
+  letter-spacing: 1px;
+  color: rgb(150, 150, 150);/*color:#cacaca;*/
+}
+
+h5 {
+  color: rgb(150, 150, 150);
+}
+
+label {
+  font-family: "Lora";
+  font-size: 11px;
+  font-weight: bold;
+}
+
+input {
+  font-family: "Lora";
+  font-weight: bold;
+}
+
+select {
+  font-family: "Lora";
+  font-weight: bold;
+  color: rgb(150, 150, 150) !important;
 }
