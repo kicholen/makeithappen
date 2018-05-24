@@ -12,33 +12,3 @@ sectionPagesMenu = "main"
 [permalinks]
 page = "/:title/"
 about = "/:filename/"
-
-[menu]
-
-	[[menu.main]]
-	    identifier = "about"
-	    name = "This is the about section"
-	    title = "O NAS"
-	    url = "/about/"
-	    weight = 20
-
-	[[menu.main]]
-	    identifier = "how"
-	    name = "This is the how section"
-	    title = "JAK DZIAŁAMY"
-	    url = "/how/"
-	    weight = 30
-
-	[[menu.main]]
-	    identifier = "decors"
-	    name = "This is the decors section"
-	    title = "DEKORACJE"
-	    url = "/decors/"
-	    weight = 40
-
-	[[menu.main]]
-	    identifier = "projects"
-	    name = "This is the realization section"
-	    title = "NASZE REALIZACJE"
-	    url = "/projects/"
-	    weight = 50
