@@ -19,7 +19,7 @@
 
 </head>
 <body>
-<nav id="makeitNav" class="makeit-navbar-image navbar navbar-default navbar-fixed-top affix-top" data-toggle="affix" role="navigation">
+<nav id="makeitNav" class="makeit-navbar-image navbar navbar-default navbar-fixed-top affix-top" style="" data-toggle="affix" role="navigation">
     <div class="container">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
@@ -28,8 +28,8 @@
                 <span class="icon-bar" style="width: 32px;"></span>
                 <span class="icon-bar"></span>
             </button>
-            			<a class="navbar-left" href="https://thirsty-euler-c41f2b.netlify.com/">
-                <img style="max-width:200px; max-height:60px" src="/images/makeitlogo.PNG">
+            			<a id="navbar-logo" class="navbar-left navbar-logo" href="https://thirsty-euler-c41f2b.netlify.com/">
+                <img src="/images/white_logo.png">
             </a>
         </div>
                 <div class="collapse navbar-collapse navbar-ex1-collapse">
@@ -62,6 +62,12 @@
                     
                     
                     <li class="nav-item ">
+                        <a class="nav-link" href="https://thirsty-euler-c41f2b.netlify.com/form/"></a>
+                    </li>
+                
+                    
+                    
+                    <li class="nav-item ">
                         <a class="nav-link" href="https://thirsty-euler-c41f2b.netlify.com/products/"></a>
                     </li>
                 
@@ -72,7 +78,7 @@
 		<div class="jumbotron" style="background:url('/images/about_image.png') no-repeat center center; background-size:cover;">
 				<div class="container" style="align-items: center;">
 					 
-						<h6 class="text-center" style="color:#ffffff;">O NAS</h6>
+						<h5 class="text-center" style="margin-bottom: 15px;color:#ffffff;">O NAS</h5>
 					
 					 
 						<h2 class="text-center"style="color:#ffffff;">To co robimy, robimy z pasją</h2>
@@ -115,89 +121,34 @@
         </div>
     </div>
 </div>
-	<div id="messages"></div>
-	<div class="container form-container">
-		<div class="row">
-			<div class="col-md-6 col-md-offset-3 form-column" style="background-color: #f2f2f2">
-				<form id="contact-form">
-					<div class="col-md-6">
-						<div class="form-group">
-							<label for="contact-fullname">Imię i nazwisko</label>
-						  	<input type="text" class="form-control" id="contact-fullname" placeholder="Wpisz imię i nazwisko">
-						</div>
 
-						<div class="form-group">
-							<label for="contact-email">Email</label>
-						  	<input type="text" class="form-control" id="contact-email" placeholder="Wpisz adres email">
-						</div>
-
-						<div class="form-group">
-							<label for="contact-product">Rodzaj produktu</label>
-							<select class="form-control" id="contact-product" placeholder="Wybierz produkt">
-								<option hidden>Wybierz produkt</option>
-								
-									
-					  					<option data="https://thirsty-euler-c41f2b.netlify.com/products/ameryka%C5%84skie-krzes%C5%82a-chiavari/">Amerykańskie Krzesła Chiavari</option>
-					  				
-					  			
-									
-					  					<option data="https://thirsty-euler-c41f2b.netlify.com/products/inne-krzeslo/">Inne krzeslo</option>
-					  				
-					  			
-									
-					  			
-							</select>
-						</div>
-					</div>
-					<div class="col-md-6">
-						<div class="form-group">
-							<label for="contact-phone">Telefon</label>
-						  	<input type="text" class="form-control" id="contact-phone" placeholder="Podaj nr tel.">
-						</div>
-
-						<div class="form-group">
-							<label>Data uroczystości</label>
-							<div class="row">
-							    <div class='col-md-5'>
-						            <input type="text" class="form-control" id="datetimepicker_from"/>
-							    </div>
-							    <div class='col-md-5'>
-						            <input type="text" class="form-control" id="datetimepicker_to"/>
-							    </div>
-							</div>
-						</div>
-						<div class="form-group">
-							<label for="contact-count">Ilość sztuk</label>
-						  	<input type="text" class="form-control" id="contact-count" placeholder="1">
-						</div>
-					</div>
-					<div class="col-md-12">
-						<div class="form-group">
-							<label for="contact-question">Tekst zapytania</label>
-						  	<input type="text" class="form-control" id="contact-question" placeholder="W czym możemy Ci pomóc?">
-						</div>
-					</div>
-	        				<div class="button-form-wrapper pull-right"><button id="submit" class="btn btn-primary btn-form" type="submit">WYŚLIJ</button></div>
-				</form>
-			</div>
-		</div>
-	</div>
     <footer class="footer" style="">
 	    <div class="container">
-    		<a href="https://thirsty-euler-c41f2b.netlify.com/">
-                <img style="max-width:200px; max-height:60px;" src="/images/makeitlogo.PNG">
-            </a>
-    		
-                <a class="nav-link" href="https://thirsty-euler-c41f2b.netlify.com/about/">O NAS</a>
-            
-                <a class="nav-link" href="https://thirsty-euler-c41f2b.netlify.com/how/">JAK DZIAŁAMY</a>
-            
-                <a class="nav-link" href="https://thirsty-euler-c41f2b.netlify.com/decors/">DEKORACJE</a>
-            
-                <a class="nav-link" href="https://thirsty-euler-c41f2b.netlify.com/projects/">NASZE REALIZACJE</a>
-            
-                <a class="nav-link" href="https://thirsty-euler-c41f2b.netlify.com/products/"></a>
-            
+            <div class="row">
+                <div class="col-md-3">
+            		<a href="https://thirsty-euler-c41f2b.netlify.com/">
+                        <img style="max-width:200px; max-height:60px; filter: brightness(100) invert(1);" src="/images/white_logo.png">
+                    </a>
+                </div>
+                <div class="col-md-5">
+                    <h6>Numery telefonu</h6>
+                    <h4 style="font-family: Lora; font-size: 24px">533 136 777, 501 785 370</h4>
+                </div>
+                <div class="col-md-4">
+                    <a style="padding: 10px;" href="https://thirsty-euler-c41f2b.netlify.com/">
+                        <img src="/images/mail_picture.png">
+                    </a>
+                    <a style="padding: 10px;" href="https://thirsty-euler-c41f2b.netlify.com/">
+                        <img src="/images/facebook_picture.png">
+                    </a>
+                    <a style="padding: 10px;" href="https://thirsty-euler-c41f2b.netlify.com/">
+                        <img src="/images/instagram_picture.png">
+                    </a>
+                    <a style="padding: 10px;" href="https://thirsty-euler-c41f2b.netlify.com/">
+                        <img src="/images/pinterest_picture.png">
+                    </a>
+                </div>
+            </div>
 	    </div>
     </footer>
 	<script src="/js/jquery-1.11.3.min.js"></script>

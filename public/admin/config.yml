@@ -75,6 +75,7 @@ collections:
           - {label: Third_Image, name: third_thumbnail, widget: image}
           - {label: Content, name: content, widget: markdown}
           - {label: Right_Content, name: right_content, widget: markdown}
+          - {label: Is_form, name: enable_form, widget: boolean}
       - label: Decors page
         name: decors
         file: content/decors/_index.md
@@ -84,6 +85,7 @@ collections:
           - {label: Description, name: description, widget: string, required: false}
           - {label: Small_Description, name: small_description, widget: string, required: false}
           - {label: Background_Image, name: image, widget: image, required: false}
+          - {label: Is_form, name: enable_form, widget: boolean}
           - label: Categories
             name: category
             widget: list
@@ -103,6 +105,7 @@ collections:
           - {label: Description, name: description, widget: string, required: false}
           - {label: Small_Description, name: small_description, widget: string, required: false}
           - {label: Background_Image, name: image, widget: image, required: false}
+          - {label: Is_form, name: enable_form, widget: boolean}
           - label: Gallery
             name: gallery
             widget: list
@@ -117,6 +120,7 @@ collections:
           - {label: Description, name: description, widget: string, required: false}
           - {label: Small_Description, name: small_description, widget: string, required: false}
           - {label: Background_Image, name: image, widget: image, required: false}
+          - {label: Is_form, name: enable_form, widget: boolean}
           - label: Features
             name: features
             widget: list
@@ -152,5 +156,17 @@ collections:
           - {label: How_image_second, name: how_image_second, widget: image}
           - {label: How_image_third, name: how_image_third, widget: image}
           - {label: More_text, name: more_text, widget: string}
+          - {label: Is_form, name: enable_form, widget: boolean}
+      - label: Form page
+        name: form
+        file: content/form/_index.md
+        create: false
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Description, name: description, widget: string, required: false}
+          - {label: Small_Description, name: small_description, widget: string, required: false}
+          - {label: Background_Image, name: image, widget: image, required: false}
+          - {label: Content, name: content, widget: markdown}
+          - {label: Is_form, name: enable_form, widget: boolean}
 
   

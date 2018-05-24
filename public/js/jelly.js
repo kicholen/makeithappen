@@ -10,6 +10,12 @@
         }
     })
 
+    $('#navbar-logo').affix({
+        offset: {
+            top: 100
+        }
+    })
+
     $('.carousel').carousel({
   		interval: false
 	})
