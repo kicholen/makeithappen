@@ -16,11 +16,20 @@
         }
     })
 
-    $('.carousel').carousel({
-  		interval: false
-	})
-
     $(document).ready(function () {
+      /*$('.navbar-toggle').on('click', function() {
+        var checkIf = $(this).parent()[1]
+        var parent = $(this).parent().parent().parent();
+        if (parent.hasClass("affix-top")) {
+          parent.attr('style', 'background-color: rgba(0, 0, 0, 0.7)');
+          console.log("has");
+        }
+        else {
+          parent.removeAttr('style');
+          console.log("do not has");
+        }
+      });*/
+
     	var my_json;
   		$.getJSON("", function(json) {
   		  my_json = json;

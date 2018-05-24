@@ -1,11 +1,13 @@
         <div class="collapse navbar-collapse navbar-ex1-collapse">
             <ul class="nav navbar-nav navbar-right">
-                {{ range .Site.Menus.main }}
-                    {{ $.Scratch.Set "active" (eq .Identifier $.Type) }}
-                    {{ $active := $.Scratch.Get "active" }}
-                    <li class="nav-item {{ if $active }}active{{end}}">
-                        <a class="nav-link" href="{{ .URL | absLangURL  }}">{{ .Title  }}</a>
-                    </li>
+                {{ range where $.Site.Pages "Params.title" "Wazna_data_nie_zmieniac_tytulu" }}
+                    {{ range $element := .Params.navbar }}
+                        {{ $.Scratch.Set "active" (eq .Identifier $.Type) }}
+                        {{ $active := $.Scratch.Get "active" }}
+                        <li class="nav-item {{ if $active }}active{{end}}">
+                            <a class="nav-link" href="{{ $element.url | absLangURL  }}">{{ $element.Title  }}</a>
+                        </li>
+                    {{ end }}
                 {{ end }}
             </ul>
         </div>
