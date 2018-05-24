@@ -4,8 +4,6 @@ thumbnail: /images/home_decors_second.png
 content: |-
   asdasd
 
-
-
   * a
   * a
   * a
