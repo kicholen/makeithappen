@@ -6,7 +6,7 @@ html {
 body {
     font-family: 'Lora', serif;
     font-family: 'Poppins', sans-serif !important;
-    margin-bottom: 60px;
+    margin-bottom: 100px;
 }
 
 .footer {
@@ -15,8 +15,8 @@ body {
   position: absolute;
   z-index: 10;
   width: 100%;
-  height: 60px;
-  line-height: 60px;
+  height: 100px;
+  line-height: 100px;
 }
 
 /* navbar */
@@ -34,7 +34,7 @@ body {
 .makeit-navbar-image .navbar-nav>li>a:active {
     padding-top: 20px;
     padding-bottom: 20px;
-    padding-right: 25px;
+    padding-right: 22px;
     color: #ffffff;
     line-height: 10px;
     font-weight: bold;
@@ -81,6 +81,19 @@ body {
     background-color: rgba(0, 0, 0, 0.7);
 }
 
+.navbar-no-image-logo>img {
+  filter: brightness(100) invert(1);
+}
+
+.navbar-no-image-logo.affix>img  {
+  transform: scale(0.7) translateY(-5px);
+}
+
+.navbar-logo.affix>img  {
+  transform: scale(0.7) translateY(-5px);
+  filter: brightness(100) invert(1);
+}
+
 /* navbar without image */
 
 .makeit-navbar {
@@ -96,7 +109,7 @@ body {
 .makeit-navbar .navbar-nav>li>a:active {
     padding-top: 20px;
     padding-bottom: 20px;
-    padding-right: 25px;
+    padding-right: 22px;
     color: #000000;
     line-height: 10px;
     font-weight: bold;
@@ -384,10 +397,12 @@ body {
     color: #000000;
     bottom: 0;
     background-color: #f2f2f2a1;
-    font-size: 12px;
+    font-weight: 700;
+    font-size: 13px;
     padding-top: 24px;
     padding-bottom: 30px;
     height: 60px;
+    text-shadow: none;
 }
 
 .makeit-carousel-control.left,
@@ -547,10 +562,11 @@ h2 {
 
 h6 {
   letter-spacing: 1px;
-  color: rgb(150, 150, 150);/*color:#cacaca;*/
+  color: rgb(150, 150, 150);
 }
 
 h5 {
+  letter-spacing: 1px;
   color: rgb(150, 150, 150);
 }
 
