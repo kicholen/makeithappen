@@ -58,6 +58,23 @@ collections:
             collection: products
             searchFields: [description, title]
             valueField: title
+  - label: Data
+    name: data
+    folder: content/data
+    create: false
+    fields:
+      - {label: Title, name: title, widget: string}
+      - {label: Mail, name: mail, widget: string}
+      - {label: Phone_numbers, name: phone_numbers, widget: string, required: false}
+      - {label: Facebook_url, name: facebook_url, widget: string, required: false}
+      - {label: Instagram_url, name: instagram_url, widget: string, required: false}
+      - {label: Pinterest_url, name: pinterest_url, widget: string, required: false}
+      - label: Navbar
+        name: navbar
+        widget: list
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Url, name: url, widget: string}
   - name: pages
     label: Pages
     files:
