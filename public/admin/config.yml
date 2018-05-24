@@ -63,7 +63,7 @@ collections:
     files:
       - label: Links&Navbar
         name: data
-        folder: content/data/_index.md
+        file: content/data/_index.md
         create: false
         fields:
           - {label: Title, name: title, widget: string}
