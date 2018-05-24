@@ -60,7 +60,7 @@ collections:
             valueField: title
   - label: Data
     name: data
-    folder: content/data
+    folder: content/data/_index.md
     create: false
     fields:
       - {label: Title, name: title, widget: string}
