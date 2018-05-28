@@ -30,11 +30,15 @@
           <span class="sr-only">Next</span>
         </a>
       </div>
-      <h4 style="padding-top: 45px">Sprawdź dostępność produktu</h4>
+      <h4 style="padding-left: 30px; padding-top: 45px; padding-bottom: 10px; font-family: Lora;">Sprawdź dostępność produktu</h4>
       {{ partial "calendar" . }}
     </div>
   	<div class="col-md-6">
   		{{ .Params.content | markdownify }}
+      <a href=""><div class="button-home-wrapper" id="product-button" data="{{ .Params.title }}"><button class="btn btn-primary btn-home" type="submit">OTWÓRZ FORUMLARZ ABY ZAMÓWIĆ PRODUKT</button></div></a>
+      <div class="product-form" style="display: none;">
+        {{ partial "force_form" . }}
+      </div>
     </div>
   </div>
 </div>

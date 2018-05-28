@@ -17,6 +17,20 @@
     })
 
     $(document).ready(function () {
+      $('#product-button').on('click', function(e) {
+        e.preventDefault();
+        $('.product-form').toggle('slide');
+        var productTitle = decodeURIComponent($(this).attr('data')).replace(/ /g, '');
+        var product = $('#contact-product')[0];
+        console.log(productTitle);
+        for (var i = 0; i < product.options.length; i++) {
+          console.log(product.options[i].text);
+          if (product.options[i].text.replace(/ /g, '') == productTitle) {
+            product.options[i].selected = true;
+            return;
+          }
+        }
+      });
       /*$('.navbar-toggle').on('click', function() {
         var checkIf = $(this).parent()[1]
         var parent = $(this).parent().parent().parent();

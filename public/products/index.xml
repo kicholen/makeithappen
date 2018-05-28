@@ -28,5 +28,23 @@
       <description></description>
     </item>
     
+    <item>
+      <title>Produkt Tytułu lepiej nie zmieniać</title>
+      <link>https://thirsty-euler-c41f2b.netlify.com/products/produkt-tytu%C5%82u-lepiej-nie-zmienia%C4%87/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://thirsty-euler-c41f2b.netlify.com/products/produkt-tytu%C5%82u-lepiej-nie-zmienia%C4%87/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Produkt nowy  - tytuł lepiej stałe</title>
+      <link>https://thirsty-euler-c41f2b.netlify.com/products/produkt-nowy-tytu%C5%82-lepiej-sta%C5%82e/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://thirsty-euler-c41f2b.netlify.com/products/produkt-nowy-tytu%C5%82-lepiej-sta%C5%82e/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
