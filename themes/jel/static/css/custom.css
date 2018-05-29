@@ -301,6 +301,12 @@ body {
   }
 }
 
+.equal {
+  display: flex;
+  display: -webkit-flex;
+  flex-wrap: wrap;
+}
+
 /* home */
 
 .home-center-responsive-image {

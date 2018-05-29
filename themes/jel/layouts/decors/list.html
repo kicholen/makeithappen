@@ -3,14 +3,20 @@
 {{ partial "title.html" . }}
 
 <div class="container">
-	<div class="row">
+	<div class="row" style="padding-bottom: 45px;">
 	    {{ range $element := .Params.category }}
-			<div class="col-xs-6 col-sm-6 col-md-3">
+			<div class="col-xs-12 col-sm-6 col-md-3" style="padding-left: 20px; padding-right: 20px; padding-bottom: 20px;">
 			{{ range where $.Site.Pages "Params.title" $element.path }}
 		    	<a href="{{ .URL }}">
-	    			<img class="img-responsive center-responsive-gallery-image" src="{{ .Params.thumbnail }}">
+					<div class="row" style="background-color: #f2f2f2; color: black; height: 140px; line-height: 140px; text-align: center;">
+						<div class="col-xs-2">
+			    			<p style="font-family: Lora; font-size: 18px; display: inline-block; vertical-align: middle; line-height: normal;">{{ .Title }}</p>
+						</div>
+						<div class="col-xs-10" style="padding-right: 0px">
+			    			<img class="pull-right"  src="{{ .Params.thumbnail }}">
+						</div>
+					</div>
 	    		</a>
-	    		<p class="centered-text" style="padding-bottom: 45px">{{ .Title }}</p>
 	      	{{ end }}
 	      	</div>
 	    {{ end }}

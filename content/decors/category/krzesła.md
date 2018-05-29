@@ -1,7 +1,7 @@
 ---
 title: Krzesła
 description: Różne
-thumbnail: /images/home_decors_first.png
+thumbnail: /images/krzesla_decor.jpg
 products:
   - path: Amerykańskie Krzesła Chiavari
   - path: Inne krzeslo
