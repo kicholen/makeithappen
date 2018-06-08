@@ -2,7 +2,7 @@
 title: O NAS
 description: 'To co robimy, robimy z pasją'
 small_description: ''
-image: /images/justa-monika-081.jpg
+image: /images/justa-monika-044.jpg
 first_thumbnail: /images/about_first.png
 second_thumbnail: /images/about_second.png
 third_thumbnail: /images/about_third.png
