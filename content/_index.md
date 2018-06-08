@@ -1,6 +1,6 @@
 ---
 title: Make It Happen
-about_image: /images/justa-monika-044.jpg
+about_image: /images/justa-monika-102.jpg
 about_title: O NAS
 about_url: /about
 decors_title: DEKORACJE
