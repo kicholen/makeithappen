@@ -25,9 +25,9 @@ how_complex_description: >-
   lacinia. Pellentesque eu dignissim diam. Etiam placerat condimentum ipsum,
   quis sollicitudin nunc ultricies nec. Nullam molestie scelerisque dui
 how_url: /decors
-how_image_first: /images/home_how_first.png
-how_image_second: /images/home_how_second.png
-how_image_third: /images/home_how_third.png
+how_image_first: /images/justa-monika-081.jpg
+how_image_second: /images/justa-monika-102.jpg
+how_image_third: /images/justa-monika-004.jpg
 more_text: WIĘCEJ
 enable_form: true
 ---
