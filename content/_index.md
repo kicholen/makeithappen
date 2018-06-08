@@ -1,27 +1,34 @@
 ---
-title: "Make It Happen"
-about_image: "/images/home_first.png"
-about_title: "O NAS"
-about_description: "To co robimy, robimy z pasją"
-about_url: "/about"
-decors_title: "DEKORACJE"
-decors_description: "Dzięki nam będzie pięknie"
-decors_complex_description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut volutpat maximus lacinia. Pellentesque eu dignissim diam. Etiam placerat condimentum ipsum, quis sollicitudin nunc ultricies nec. Nullam molestie scelerisque dui"
-decors_url: "/decors"
-decors_image_first: "/images/home_decors_first.png"
-decors_title_first: "Pierwszy tytuł"
-decors_image_second: "/images/home_decors_second.png"
-decors_title_second: "Drugi tytuł"
-decors_image_third: "/images/home_decors_third.png"
-decors_title_third: "Trzeci tytuł"
-decors_image_fourth: "/images/home_decors_fourth.png"
-decors_title_fourth: "Czwarty tytuł"
-how_title: "JAK DZIAŁAMY?"
-how_description: "Z nami wszystko jest proste"
-how_complex_description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut volutpat maximus lacinia. Pellentesque eu dignissim diam. Etiam placerat condimentum ipsum, quis sollicitudin nunc ultricies nec. Nullam molestie scelerisque dui"
-how_url: "/decors"
-how_image_first: "/images/home_how_first.png"
-how_image_second: "/images/home_how_second.png"
-how_image_third: "/images/home_how_third.png"
-more_text: "WIĘCEJ"
+title: Make It Happen
+about_image: /images/justa-monika-044.jpg
+about_title: O NAS
+about_url: /about
+decors_title: DEKORACJE
+decors_description: Dzięki nam będzie pięknie
+decors_complex_description: >-
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut volutpat maximus
+  lacinia. Pellentesque eu dignissim diam. Etiam placerat condimentum ipsum,
+  quis sollicitudin nunc ultricies nec. Nullam molestie scelerisque dui
+decors_url: /decors
+decors_image_first: /images/home_decors_first.png
+decors_title_first: Krzesła
+decors_image_second: /images/justa-monika-012.jpg
+decors_title_second: Ścianki
+decors_image_third: /images/justa-monika-087.jpg
+decors_title_third: Podtalerze
+decors_image_fourth: /images/justa-monika-022.jpg
+decors_title_fourth: Metalowe kwiaty i okręgi
+how_title: JAK DZIAŁAMY?
+how_description: Z nami wszystko jest proste
+how_complex_description: >-
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut volutpat maximus
+  lacinia. Pellentesque eu dignissim diam. Etiam placerat condimentum ipsum,
+  quis sollicitudin nunc ultricies nec. Nullam molestie scelerisque dui
+how_url: /decors
+how_image_first: /images/home_how_first.png
+how_image_second: /images/home_how_second.png
+how_image_third: /images/home_how_third.png
+more_text: WIĘCEJ
+enable_form: true
 ---
+
