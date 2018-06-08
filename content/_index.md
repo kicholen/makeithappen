@@ -6,6 +6,10 @@ about_url: /about
 decors_title: DEKORACJE
 decors_description: Dzięki nam będzie pięknie
 decors_complex_description: >-
+  Nie masz pomysłu na dekorację swojej uroczystości?
+
+  A może wręcz przeciwnie, dokładnie wiesz czego szukasz i właśnie my to mamy?
+
   Nieważne z jakiego powodu do nas trafiłeś, jesteśmy pewne, że sprostamy Twoim
   wymaganiom.
 decors_url: /decors
@@ -19,11 +23,7 @@ decors_image_fourth: /images/justa-monika-022.jpg
 decors_title_fourth: Metalowe kwiaty i okręgi
 how_title: JAK DZIAŁAMY?
 how_description: Z nami wszystko jest proste
-how_complex_description: >-
-  Dekoracje Make it happen mieszkają we Wrocławiu, dzięki temu na terenie
-  naszego miasta i jego okolic transport wszystkich dekoracji jest darmowy.  Co
-  jeśli jesteś spoza Wrocławia, a nie wyobrażasz sobie swojej imprezy bez
-  naszych dekoracji? 
+how_complex_description: Dekoracje Make it happen mieszkają we Wrocławiu.
 how_url: /decors
 how_image_first: /images/justa-monika-081.jpg
 how_image_second: /images/justa-monika-017.jpg
