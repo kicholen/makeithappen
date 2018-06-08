@@ -6,9 +6,8 @@ about_url: /about
 decors_title: DEKORACJE
 decors_description: Dzięki nam będzie pięknie
 decors_complex_description: >-
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut volutpat maximus
-  lacinia. Pellentesque eu dignissim diam. Etiam placerat condimentum ipsum,
-  quis sollicitudin nunc ultricies nec. Nullam molestie scelerisque dui
+  Nieważne z jakiego powodu do nas trafiłeś, jesteśmy pewne, że sprostamy Twoim
+  wymaganiom.
 decors_url: /decors
 decors_image_first: /images/home_decors_first.png
 decors_title_first: Krzesła
@@ -21,12 +20,13 @@ decors_title_fourth: Metalowe kwiaty i okręgi
 how_title: JAK DZIAŁAMY?
 how_description: Z nami wszystko jest proste
 how_complex_description: >-
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut volutpat maximus
-  lacinia. Pellentesque eu dignissim diam. Etiam placerat condimentum ipsum,
-  quis sollicitudin nunc ultricies nec. Nullam molestie scelerisque dui
+  Dekoracje Make it happen mieszkają we Wrocławiu, dzięki temu na terenie
+  naszego miasta i jego okolic transport wszystkich dekoracji jest darmowy.  Co
+  jeśli jesteś spoza Wrocławia, a nie wyobrażasz sobie swojej imprezy bez
+  naszych dekoracji? 
 how_url: /decors
 how_image_first: /images/justa-monika-081.jpg
-how_image_second: /images/justa-monika-102.jpg
+how_image_second: /images/justa-monika-017.jpg
 how_image_third: /images/justa-monika-004.jpg
 more_text: WIĘCEJ
 enable_form: true
