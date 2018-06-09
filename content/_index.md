@@ -13,7 +13,7 @@ decors_complex_description: >-
   Nieważne z jakiego powodu do nas trafiłeś, jesteśmy pewne, że sprostamy Twoim
   wymaganiom.
 decors_url: /decors
-decors_image_first: /images/justa-monika-086.jpg
+decors_image_first: /images/justa-monika-105.jpg
 decors_title_first: Krzesła
 decors_image_second: /images/justa-monika-012.jpg
 decors_title_second: Ścianki
