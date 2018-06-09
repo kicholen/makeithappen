@@ -15,7 +15,7 @@ decors_complex_description: >-
 decors_url: /decors
 decors_image_first: /images/justa-monika-086.jpg
 decors_title_first: Krzesła
-decors_image_second: /images/justa-monika-026.jpg
+decors_image_second: /images/justa-monika-012.jpg
 decors_title_second: Ścianki
 decors_image_third: /images/justa-monika-087.jpg
 decors_title_third: Podtalerze
