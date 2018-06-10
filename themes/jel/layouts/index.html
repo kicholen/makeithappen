@@ -54,6 +54,13 @@
 	</div>
 </div>
 <div class="container home-form">
-	{{ partial "form.html" . }}
+    	<div class="col-md-6 home-decors-offset">
+			<h6>{{ .Params.form_title }}</h6>
+			<h2>{{ .Params.form_description }}</h2>
+			<h5>{{ .Params.form_complex_description }}</h5>
+		</div>
+    	<div class="col-md-6">
+			{{ partial "form_home.html" . }}
+		</div>
 </div>
 {{ partial "footer.html" . }}

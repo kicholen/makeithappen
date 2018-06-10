@@ -155,6 +155,7 @@ collections:
           - {label: Title, name: title, widget: string}
           - {label: About_image, name: about_image, widget: image}
           - {label: About_title, name: about_title, widget: string}
+          - {label: About_description, name: about_description, widget: string}
           - {label: About_url, name: about_url, widget: string}
           - {label: Decors_title, name: decors_title, widget: string}
           - {label: Decors_description, name: decors_description, widget: string}

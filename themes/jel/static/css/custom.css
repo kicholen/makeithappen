@@ -564,6 +564,7 @@ ul.makeit-legend li.reserved {
 .form-control {
     color: black;
     border: none;
+    font-size: 14px;
     border-bottom-width: 1px;
     border-bottom-color: rgb(204, 204, 204);
     border-bottom-style: solid;

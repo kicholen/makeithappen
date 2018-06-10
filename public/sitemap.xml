@@ -36,11 +36,11 @@
   </url>
   
   <url>
-    <loc>https://thirsty-euler-c41f2b.netlify.com/projects/</loc>
+    <loc>https://thirsty-euler-c41f2b.netlify.com/decors/category/flowers/</loc>
   </url>
   
   <url>
-    <loc>https://thirsty-euler-c41f2b.netlify.com/decors/category/nowa-kategoria/</loc>
+    <loc>https://thirsty-euler-c41f2b.netlify.com/projects/</loc>
   </url>
   
   <url>
@@ -71,6 +71,10 @@
   
   <url>
     <loc>https://thirsty-euler-c41f2b.netlify.com/data/</loc>
+  </url>
+  
+  <url>
+    <loc>https://thirsty-euler-c41f2b.netlify.com/decors/category/scianki/</loc>
   </url>
   
 </urlset>
