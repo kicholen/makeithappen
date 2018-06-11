@@ -3,7 +3,7 @@ title: JAK DZIAŁAMY?
 description: Z nami wszystko jest proste
 small_description: ''
 image: /images/justa-monika-014.jpg
-enable_form: true
+enable_form: false
 features:
   - title: Jak wypożyczyć nasze dekoracje?
     description: "Znajdź dekorację, która Cię interesuje. \r\n\nSprawdź w kalendarzu jej dostępność w dniu Twojej uroczystości.\r\n\nWypełnij formularz kontaktowy, który pozwoli sprecyzować Twoje potrzeby.\r\n\nSkontaktujemy się z Tobą tak szybko jak będzie to możliwe. Daj nam maksymalnie 48 godzin \U0001F60A\r\n\nPo ustaleniu szczegółów wyślemy Ci umowę i dane do przelewu zaliczki. \r\n\nTeraz Twoja kolej. Wystarczy, że wyślesz nam skan podpisanej umowy i skan  dowodu osobistego. \r\n\nNa uiszczenie zaliczki masz 3 dni, po tym czasie rezerwacja będzie anulowana. Do dzieła!"
