@@ -24,7 +24,9 @@ decors_image_fourth: /images/justa-monika-022.jpg
 decors_title_fourth: Metalowe kwiaty i okręgi
 how_title: JAK DZIAŁAMY?
 how_description: Z nami wszystko jest proste
-how_complex_description: Dekoracje Make it happen mieszkają we Wrocławiu.
+how_complex_description: >-
+  Masz pytania dotyczące wypożyczenia dekoracji? Tutaj na pewno znajdziesz
+  wszystkie potrzebne informacje. Masz więcej pytań? Zapraszamy do kontaktu.
 how_url: /decors
 how_image_first: /images/justa-monika-081.jpg
 how_image_second: /images/justa-monika-017.jpg
@@ -32,6 +34,8 @@ how_image_third: /images/justa-monika-034.jpg
 more_text: WIĘCEJ
 form_title: FORMULARZ
 form_description: Co potrzeba co w duszy gra
-form_complex_description: bla bla
+form_complex_description: >-
+  Skorzystaj z formularza by szybko uzyskać niezbędne informacje. Zachęcamy do
+  wyboru tej formy kontaktu.
 ---
 
