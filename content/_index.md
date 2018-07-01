@@ -26,7 +26,7 @@ how_title: JAK DZIAŁAMY?
 how_description: Z nami wszystko jest proste
 how_complex_description: >-
   Masz pytania dotyczące wypożyczenia dekoracji? Tutaj na pewno znajdziesz
-  wszystkie potrzebne informacje. Masz więcej pytań? Zapraszamy do kontaktu.
+  wszystkie potrzebne informacje. 
 how_url: /decors
 how_image_first: /images/justa-monika-081.jpg
 how_image_second: /images/justa-monika-017.jpg
