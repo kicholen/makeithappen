@@ -32,8 +32,6 @@ how_image_third: /images/justa-monika-034.jpg
 more_text: WIĘCEJ
 form_title: FORMULARZ
 form_description: Co potrzeba co w duszy gra
-form_complex_description: >-
-  Masz pytania dotyczące wypożyczenia dekoracji? Tutaj na pewno znajdziesz
-  wszystkie potrzebne informacje. Masz więcej pytań? Zapraszamy do kontaktu.
+form_complex_description: bla bla
 ---
 
