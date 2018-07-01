@@ -26,7 +26,7 @@ how_title: JAK DZIAŁAMY?
 how_description: Z nami wszystko jest proste
 how_complex_description: Dekoracje Make it happen mieszkają we Wrocławiu.
 how_url: /decors
-how_image_first: /images/justa-monika-081.jpg
+how_image_first: /images/justa-monika-070.jpg
 how_image_second: /images/justa-monika-017.jpg
 how_image_third: /images/justa-monika-034.jpg
 more_text: WIĘCEJ
