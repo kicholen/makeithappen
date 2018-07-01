@@ -34,6 +34,6 @@ form_title: FORMULARZ
 form_description: Co potrzeba co w duszy gra
 form_complex_description: >-
   Masz pytania dotyczące wypożyczenia dekoracji? To tutaj na pewno znajdziesz
-  wszystkie potrzebne informacje. Masz więcej pytań? Zapraszamy do kontaktu
+  wszystkie potrzebne informacje. Masz więcej pytań? Zapraszamy do kontaktu.
 ---
 
