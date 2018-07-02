@@ -1,6 +1,6 @@
 ---
 title: Podtalerze
-thumbnail: /images/justa-monika-087.jpg
+thumbnail: /images/home_how_third.png
 products:
   - path: Szampańskie podtalerze
 ---
