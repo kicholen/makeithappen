@@ -1,6 +1,6 @@
 ---
 title: Metalowe kwiaty i okręgi
-thumbnail: /images/justa-monika-022.jpg
+thumbnail: /images/about_second.png
 products: []
 ---
 
