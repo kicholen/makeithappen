@@ -1,6 +1,6 @@
 ---
 title: Ścianki
-thumbnail: /images/justa-monika-012.jpg
+thumbnail: /images/about_third.png
 products:
   - path: Makrama
   - path: Jodełka
