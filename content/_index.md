@@ -21,7 +21,7 @@ decors_title_second: Ścianki
 decors_image_third: /images/justa-monika-087.jpg
 decors_title_third: Podtalerze
 decors_image_fourth: /images/justa-monika-022.jpg
-decors_title_fourth: Metalowe kwiaty i okręgi
+decors_title_fourth: Metalowe dekoracje
 how_title: JAK DZIAŁAMY?
 how_description: Z nami wszystko jest proste
 how_complex_description: >-
