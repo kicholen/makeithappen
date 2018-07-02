@@ -7,6 +7,6 @@ category:
   - path: Krzesła
   - path: Podtalerze
   - path: Ścianki
-  - path: Metalowe okręgi & kwiaty
+  - path: Metalowe kwiaty i okręgi
 ---
 
