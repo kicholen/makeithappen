@@ -8,7 +8,5 @@ products:
   - path: Stylowa
   - path: Drzwi
   - path: Kwiatowa
-  - path: Miedziany stelaż
-  - path: Metalowe kwiaty
 ---
 
