@@ -1,9 +1,8 @@
 ---
 title: Krzesła
 description: Różne
-thumbnail: /images/krzesla_decor.jpg
+thumbnail: /images/justa-monika-105.jpg
 products:
   - path: Amerykańskie Krzesła Chiavari
-  - path: Inne krzeslo
 ---
 
