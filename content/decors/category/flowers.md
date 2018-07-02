@@ -1,5 +1,5 @@
 ---
-title: Metalowe kwiaty i okręgi
+title: Metalowe dekoracje
 thumbnail: /images/about_second.png
 products:
   - path: Metalowe kwiaty
