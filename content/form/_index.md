@@ -1,6 +1,6 @@
 ---
 title: FORMULARZ
-description: Wyślij formularz
+description: Co potrzeba co w duszy gra
 small_description: ''
 image: ''
 content: Tutaj ewentualnie opis do formularza?
