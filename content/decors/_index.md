@@ -6,7 +6,7 @@ enable_form: false
 category:
   - path: Krzesła
   - path: Podtalerze
-  - path: Ścianki
+  - path: ŚCIANKI
   - path: Metalowe dekoracje
 ---
 
