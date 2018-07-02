@@ -1,5 +1,6 @@
 ---
-title: Ścianki
+title: ŚCIANKI
+description: A Ciebie do czego zainspirują nasze dekoracje?
 thumbnail: /images/about_third.png
 products:
   - path: Makrama
