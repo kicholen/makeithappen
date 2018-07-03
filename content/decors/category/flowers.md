@@ -4,5 +4,6 @@ thumbnail: /images/about_second.png
 products:
   - path: Metalowe kwiaty
   - path: Metalowe Okręgi
+  - path: Miedziany stelaż
 ---
 
