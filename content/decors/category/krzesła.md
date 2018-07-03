@@ -1,5 +1,5 @@
 ---
-title: DEKORACJE
+title: Krzesła
 description: Krzesła
 thumbnail: /images/home_decors_first.png
 products:
