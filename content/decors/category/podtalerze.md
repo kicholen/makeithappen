@@ -1,7 +1,7 @@
 ---
 title: Podtalerze
 description: ''
-thumbnail: /images/home_how_third.png
+thumbnail: /images/home_decors_third.png
 products:
   - path: Szampańskie podtalerze
 ---
