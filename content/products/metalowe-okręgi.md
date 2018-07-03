@@ -6,5 +6,11 @@ content: "Różnej wielkości okręgi ozdobione sztuczną zielenią. Przymocowan
 images:
   - image: /images/justa-monika-002.jpg
   - image: /images/justa-monika-004.jpg
+  - image: /images/justa-monika-003.jpg
+  - image: /images/justa-monika-006.jpg
+  - image: /images/justa-monika-007.jpg
+  - image: /images/justa-monika-034.jpg
+  - image: /images/justa-monika-035.jpg
+  - image: /images/justa-monika-037.jpg
 ---
 
