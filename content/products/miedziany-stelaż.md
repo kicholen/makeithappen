@@ -6,6 +6,7 @@ content: "Znakomicie wpisuje się  w geometryczny trend ślubny. Konstrukcja z r
 images:
   - image: /images/justa-monika-079.jpg
   - image: /images/justa-monika-078.jpg
+  - image: /images/justa-monika-075.jpg
   - image: /images/justa-monika-038.jpg
 ---
 
