@@ -3,7 +3,7 @@ title: FORMULARZ
 description: Co potrzeba co w duszy gra
 small_description: ''
 image: ''
-content: Tutaj ewentualnie opis do formularza?
+content: '?'
 enable_form: true
 ---
 
