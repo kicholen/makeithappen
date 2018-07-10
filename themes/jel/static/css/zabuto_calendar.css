@@ -89,7 +89,7 @@ div.zabuto_calendar .table tr td div.other_day {
 /* actions and events */
 div.zabuto_calendar .table tr td.event div.day,
 div.zabuto_calendar ul.legend li.event {
-    background-color: rgb(231, 231, 231);
+    background-color: rgb(214, 214, 214);
     color: #000000;
 }
 
@@ -101,7 +101,7 @@ div.zabuto_calendar div.legend {
 
 div.zabuto_calendar div.legend span {
     font-size: 13px;
-    color: rgb(157, 157, 157);
+    color: black;
     text-align: center;
     font-weight: normal;
     padding-left: 10px;
@@ -120,7 +120,7 @@ div.zabuto_calendar ul.legend {
     list-style: none outside none;
     margin: 0;
     padding: 0;
-    background-color: rgb(231, 231, 231);
+    background-color: rgb(214, 214, 214);
 }
 
 div.zabuto_calendar ul.legend li {

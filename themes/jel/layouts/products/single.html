@@ -36,9 +36,9 @@
   	<div class="col-md-6">
   		{{ .Params.content | markdownify }}
       <a href=""><div class="button-home-wrapper" id="product-button" data="{{ .Params.title }}"><button class="btn btn-primary btn-home" type="submit">OTWÓRZ FORUMLARZ ABY ZAMÓWIĆ PRODUKT</button></div></a>
-      <div class="product-form" style="display: none;">
-        {{ partial "force_form" . }}
-      </div>
+        <div class="product-form" style="display: none;">
+          {{ partial "product_form" . }}
+        </div>
     </div>
   </div>
 </div>

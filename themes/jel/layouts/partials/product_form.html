@@ -1,7 +1,7 @@
 <div id="messages"></div>
-	<div class="container form-container">
+	<div class="container form-container" style="width: unset;">
 		<div class="row">
-			<div class="col-md-6 form-column" style="background-color: #f2f2f2">
+			<div class="col-md-12 {{ if .Params.enable_form }} col-md-offset-3 {{ end }}form-column" style="background-color: #f2f2f2">
 				<form id="contact-form">
 					<div class="col-md-6">
 						<div class="form-group">

@@ -1,4 +1,5 @@
-		<div class="jumbotron" style="{{ if .Params.image }}background:url('{{ .Params.image }}') no-repeat center center; background-size:cover;{{ end }}">
+		<div class="jumbotron" style="{{ if .Params.image }}background:url('{{ .Params.image }}') no-repeat center center; background-size:cover;{{ end }} {{ if .Params.blend }} background-blend-mode: darken;
+    background-color: rgba(1, 1, 1, 0.4); {{ end }}">
 				<div class="container" style="align-items: center;">
 					{{ if .Title }} 
 						<h5 class="text-center" style="margin-bottom: 15px;color:{{ if .Params.image }}#ffffff{{ else }}rgb(150, 150, 150){{ end }};">{{ .Title }}</h5>
