@@ -3,6 +3,7 @@ title: JAK DZIAŁAMY?
 description: Z nami wszystko jest proste
 small_description: ''
 image: /images/justa-monika-014.jpg
+blend: true
 enable_form: false
 features:
   - title: Jak wypożyczyć nasze dekoracje?
