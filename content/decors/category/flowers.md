@@ -5,6 +5,6 @@ thumbnail: /images/mini3.png
 products:
   - path: Metalowe kwiaty
   - path: Metalowe okręgi
-  - path: Metalowe kwiaty
+  - path: Miedziane stelaże
 ---
 
