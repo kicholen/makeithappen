@@ -1,7 +1,7 @@
 ---
 title: Ścianki
 description: A Ciebie do czego zainspirują nasze dekoracje?
-thumbnail: /images/about_third.png
+thumbnail: /images/mini.png
 products:
   - path: Makrama
   - path: Jodełka
