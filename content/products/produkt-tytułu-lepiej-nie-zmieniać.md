@@ -18,11 +18,7 @@ content: |-
 
   * Cześć opisu
   * Blelelb
-images:
-  - image: /images/about_first.png
-  - image: /images/about_first.png
-booked_dates:
-  - date: '2018-05-26'
-  - date: '2018-06-23'
+images: []
+booked_dates: []
 ---
 
