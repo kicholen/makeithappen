@@ -33,7 +33,7 @@ how_image_second: /images/justa-monika-017.jpg
 how_image_third: /images/justa-monika-034.jpg
 more_text: WIĘCEJ
 form_title: FORMULARZ
-form_description: Co potrzeba co w duszy gra
+form_description: 'Co potrzeba, co w duszy gra'
 form_complex_description: >-
   Skorzystaj z formularza by szybko uzyskać niezbędne informacje. Zachęcamy do
   wyboru tej formy kontaktu.
