@@ -1,7 +1,7 @@
 ---
 title: Podtalerze
 description: 'Twoja historia zasługuje na piękną oprawę '
-thumbnail: /images/home_decors_third.png
+thumbnail: /images/mini2.png
 products:
   - path: Szampańskie podtalerze
 ---
