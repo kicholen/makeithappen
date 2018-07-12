@@ -33,8 +33,8 @@ content: >-
 
   * cena wypożyczenia: 25,00 zł/ sztuka
 
-  * transport krzeseł na terenie [Wrocławia ](how)- gratis, poza terenem
-  Wrocławia wyceniany jest indywidualnie
+  * transport krzeseł na terenie Wrocławia - gratis, poza terenem Wrocławia
+  wyceniany jest indywidualnie
 
   * istnieje możliwość odbioru osobistego
 
