@@ -203,7 +203,7 @@
         // send 
         $.ajax({
             type: "POST",
-            url: ".netlify/functions/sendMail",
+            url: "/.netlify/functions/sendMail",
             data: dataToSend,
             success: function(data, text, xhr) {
               console.log(data);
