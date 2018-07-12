@@ -1,8 +1,18 @@
 const nodemailer = require('nodemailer');
+const smtpTransport = require('nodemailer-smtp-transport');
 
 exports.handler = function(event, context, callback) {
-    var mail = require("nodemailer").mail;
-    mail({
+    var transporter = nodemailer.createTransport({
+        host: 'smtp.gmail.com',
+        port: 465,
+        secure: true,
+        auth: {
+            type: 'OAuth2'
+            user: process.env.MAIL_LOGIN,
+            accessToken: process.env.ACCESS_TOKEN
+        }
+    });
+    transporter.mail({
         from: process.env.MAIL_LOGIN,
         to: process.env.MAIL_TO,
         subject: process.env.SUBJECT + new Date().toLocaleString(),
