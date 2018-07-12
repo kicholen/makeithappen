@@ -7,7 +7,7 @@ exports.handler = function(event, context, callback) {
         port: 465,
         secure: true,
         auth: {
-            type: 'OAuth2'
+            type: 'OAuth2',
             user: process.env.MAIL_LOGIN,
             accessToken: process.env.ACCESS_TOKEN
         }
