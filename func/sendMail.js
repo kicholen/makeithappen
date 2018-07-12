@@ -12,7 +12,7 @@ exports.handler = function(event, context, callback) {
             accessToken: process.env.ACCESS_TOKEN
         }
     });
-    transporter.mail({
+    transporter.sendMail({
         from: process.env.MAIL_LOGIN,
         to: process.env.MAIL_TO,
         subject: process.env.SUBJECT + new Date().toLocaleString(),
