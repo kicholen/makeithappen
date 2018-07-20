@@ -1,10 +1,10 @@
 ---
 title: Wazna_data_nie_zmieniac_tytulu
-mail: testowymail@wp.pl
+mail: makeithappen.wroclaw@gmail.com
 phone_numbers: '533 136 777, 537 078 367'
-facebook_url: 'http://www.facebook.com'
-instagram_url: 'http://www.instagram.com'
-pinterest_url: 'http://www.pinterest.com'
+facebook_url: 'https://www.facebook.com/Make-it-Happen-1215092285290803/'
+instagram_url: 'https://www.instagram.com/makeithappen.wroclaw/?hl=pl'
+pinterest_url: 'https://pl.pinterest.com/makeithappen0219/boards/'
 navbar:
   - title: O NAS
     url: about
