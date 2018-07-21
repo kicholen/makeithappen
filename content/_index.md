@@ -16,12 +16,16 @@ decors_complex_description: >-
 decors_url: /decors
 decors_image_first: /images/justa-monika-105.jpg
 decors_title_first: Krzesła
+decors_url_first: /decors/category/krzesła
 decors_image_second: /images/justa-monika-012.jpg
 decors_title_second: Ścianki
+decors_url_second: /decors/category/scianki
 decors_image_third: /images/justa-monika-087.jpg
 decors_title_third: Podtalerze
+decors_url_third: /decors/category/podtalerze
 decors_image_fourth: /images/justa-monika-022.jpg
 decors_title_fourth: Metalowe dekoracje
+decors_url_fourth: /decors/category/flowers
 how_title: JAK DZIAŁAMY?
 how_description: Z nami wszystko jest proste
 how_complex_description: >-

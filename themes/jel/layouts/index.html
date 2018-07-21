@@ -24,15 +24,23 @@
 			{{ partial "home_button.html" (dict "url" .Params.decors_url "text" .Params.more_text )}}
 		</div>
 		<div class="col-xs-6 col-sm-6 col-md-3">
-			<img class="img-responsive" src="{{ .Params.decors_image_first }}">
+			<a href="{{ .Params.decors_url_first }}">
+				<img class="img-responsive" src="{{ .Params.decors_image_first }}">
+			</a>
 			<h4 class="centered-text">{{ .Params.decors_title_first }}</h4>
-			<img class="img-responsive" src="{{ .Params.decors_image_third }}">
+			<a href="{{ .Params.decors_url_third }}">
+				<img class="img-responsive" src="{{ .Params.decors_image_third }}">
+			</a>
 			<h4 class="centered-text">{{ .Params.decors_title_third }}</h4>
 		</div>
         <div class="col-xs-6 col-sm-6 col-md-3">
-            <img class="img-responsive home-decors-responsive-image-offset" src="{{ .Params.decors_image_second }}">
+			<a href="{{ .Params.decors_url_second }}">
+	            <img class="img-responsive home-decors-responsive-image-offset" src="{{ .Params.decors_image_second }}">
+			</a>
 			<h4 class="centered-text-home-decors">{{ .Params.decors_title_second }}</h4>
-            <img class="img-responsive home-decors-responsive-image-offset" src="{{ .Params.decors_image_fourth }}">
+			<a href="{{ .Params.decors_url_fourth }}">
+            	<img class="img-responsive home-decors-responsive-image-offset" src="{{ .Params.decors_image_fourth }}">
+			</a>
 			<h4 class="centered-text-home-decors">{{ .Params.decors_title_fourth }}</h4>
         </div>
 	</div>

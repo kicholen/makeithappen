@@ -72,6 +72,19 @@ collections:
           - {label: Facebook_url, name: facebook_url, widget: string, required: false}
           - {label: Instagram_url, name: instagram_url, widget: string, required: false}
           - {label: Pinterest_url, name: pinterest_url, widget: string, required: false}
+          - {label: form_name, name: form_name, widget: string, required: false}
+          - {label: form_name_prompt, name: form_name_prompt, widget: string, required: false}
+          - {label: form_email, name: form_email, widget: string, required: false}
+          - {label: form_email_prompt, name: form_email_prompt, widget: string, required: false}
+          - {label: form_product, name: form_product, widget: string, required: false}
+          - {label: form_product_prompt, name: form_product_prompt, widget: string, required: false}
+          - {label: form_telephone, name: form_telephone, widget: string, required: false}
+          - {label: form_telephone_prompt, name: form_telephone_prompt, widget: string, required: false}
+          - {label: form_date, name: form_date, widget: string, required: false}
+          - {label: form_count, name: form_count, widget: string, required: false}
+          - {label: form_count_prompt, name: form_count_prompt, widget: string, required: false}
+          - {label: form_question, name: form_question, widget: string, required: false}
+          - {label: form_question_prompt, name: form_question_prompt, widget: string, required: false}
           - label: Navbar
             name: navbar
             widget: list
@@ -167,12 +180,16 @@ collections:
           - {label: Decors_url, name: decors_url, widget: string}
           - {label: Decors_image_first, name: decors_image_first, widget: image}
           - {label: Decors_title_first, name: decors_title_first, widget: string}
+          - {label: Decors_url_first, name: decors_url_first, widget: string}
           - {label: Decors_image_second, name: decors_image_second, widget: image}
           - {label: Decors_title_second, name: decors_title_second, widget: string}
+          - {label: Decors_url_second, name: decors_url_second, widget: string}
           - {label: Decors_image_third, name: decors_image_third, widget: image}
           - {label: Decors_title_third, name: decors_title_third, widget: string}
+          - {label: Decors_url_third, name: decors_url_third, widget: string}
           - {label: Decors_image_fourth, name: decors_image_fourth, widget: image}
           - {label: Decors_title_fourth, name: decors_title_fourth, widget: string}
+          - {label: Decors_url_fourth, name: decors_url_fourth, widget: string}
           - {label: How_title, name: how_title, widget: string}
           - {label: How_description, name: how_description, widget: string}
           - {label: How_complex_description, name: how_complex_description, widget: string}

@@ -1,0 +1,57 @@
+{{ range where $.Site.Pages "Params.title" "Wazna_data_nie_zmieniac_tytulu" }}
+
+<form id="contact-form">
+	<div class="col-md-6">
+		<div class="form-group">
+			<label for="contact-fullname">{{ .Params.form_name }}</label>
+		  	<input type="text" class="form-control" id="contact-fullname" placeholder="{{ .Params.form_name_prompt }}">
+		</div>
+
+		<div class="form-group">
+			<label for="contact-email">{{ .Params.form_email }}</label>
+		  	<input type="text" class="form-control" id="contact-email" placeholder="{{ .Params.form_email_prompt }}">
+		</div>
+
+		<div class="form-group">
+			<label for="contact-product">{{ .Params.form_product }}</label>
+			<select class="form-control" id="contact-product" placeholder="{{ .Params.form_product_prompt }}">
+				<option hidden>{{ .Params.form_product_prompt }}</option>
+				{{ range (where .Site.Pages "Section" "products").ByParam "title" }}
+					{{ if .Params.title }}
+	  					<option data="{{ .URL | absLangURL }}">{{ .Params.title }}</option>
+	  				{{ end }}
+	  			{{ end }}
+			</select>
+		</div>
+	</div>
+	<div class="col-md-6">
+		<div class="form-group">
+			<label for="contact-phone">{{ .Params.form_telephone }}</label>
+		  	<input type="text" class="form-control" id="contact-phone" placeholder="{{ .Params.form_telephone_prompt }}">
+		</div>
+
+		<div class="form-group">
+			<label>{{ .Params.form_date }}</label>
+			<div class="row">
+			    <div class='col-md-6'>
+		            <input type="text" class="form-control" id="datetimepicker_from"/>
+			    </div>
+			    <div class='col-md-6'>
+		            <input type="text" class="form-control" id="datetimepicker_to"/>
+			    </div>
+			</div>
+		</div>
+		<div class="form-group">
+			<label for="contact-count">{{ .Params.form_count }}</label>
+		  	<input type="text" class="form-control" id="contact-count" placeholder="{{ .Params.form_count_prompt }}">
+		</div>
+	</div>
+	<div class="col-md-12">
+		<div class="form-group">
+			<label for="contact-question">{{ .Params.form_question }}</label>
+		  	<input type="text" class="form-control" id="contact-question" placeholder="{{ .Params.form_question_prompt }}">
+		</div>
+	</div>
+			<div class="button-form-wrapper pull-right"><button id="submit" class="btn btn-primary btn-form" type="submit">WYŚLIJ</button></div>
+</form>
+{{ end }}

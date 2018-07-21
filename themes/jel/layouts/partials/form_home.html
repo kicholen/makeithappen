@@ -2,60 +2,7 @@
 	<div class="container form-container">
 		<div class="row">
 			<div class="col-md-6 form-column" style="background-color: #f2f2f2">
-				<form id="contact-form">
-					<div class="col-md-6">
-						<div class="form-group">
-							<label for="contact-fullname">Imię i nazwisko</label>
-						  	<input type="text" class="form-control" id="contact-fullname" placeholder="Wpisz imię i nazwisko">
-						</div>
-
-						<div class="form-group">
-							<label for="contact-email">Email</label>
-						  	<input type="text" class="form-control" id="contact-email" placeholder="Wpisz adres email">
-						</div>
-
-						<div class="form-group">
-							<label for="contact-product">Rodzaj produktu</label>
-							<select class="form-control" id="contact-product" placeholder="Wybierz produkt">
-								<option hidden>Wybierz produkt</option>
-								{{ range (where .Site.Pages "Section" "products").ByParam "title" }}
-									{{ if .Params.title }}
-					  					<option data="{{ .URL | absLangURL }}">{{ .Params.title }}</option>
-					  				{{ end }}
-					  			{{ end }}
-							</select>
-						</div>
-					</div>
-					<div class="col-md-6">
-						<div class="form-group">
-							<label for="contact-phone">Telefon</label>
-						  	<input type="text" class="form-control" id="contact-phone" placeholder="Podaj nr tel.">
-						</div>
-
-						<div class="form-group">
-							<label>Data uroczystości</label>
-							<div class="row">
-							    <div class='col-md-6'>
-						            <input type="text" class="form-control" id="datetimepicker_from"/>
-							    </div>
-							    <div class='col-md-6'>
-						            <input type="text" class="form-control" id="datetimepicker_to"/>
-							    </div>
-							</div>
-						</div>
-						<div class="form-group">
-							<label for="contact-count">Ilość sztuk</label>
-						  	<input type="text" class="form-control" id="contact-count" placeholder="1">
-						</div>
-					</div>
-					<div class="col-md-12">
-						<div class="form-group">
-							<label for="contact-question">Tekst zapytania</label>
-						  	<input type="text" class="form-control" id="contact-question" placeholder="W czym możemy Ci pomóc?">
-						</div>
-					</div>
-	        				<div class="button-form-wrapper pull-right"><button id="submit" class="btn btn-primary btn-form" type="submit">WYŚLIJ</button></div>
-				</form>
+				{{ partial "clean_form" . }}
 			</div>
 		</div>
 	</div>
