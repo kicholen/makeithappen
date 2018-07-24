@@ -21,7 +21,7 @@ content: >-
 
 
   Jeśli masz jakiekolwiek pytania dotyczące prywatności, prosimy o kontakt
-  [/form](/form)
+  poprzez [formularz](/form)
 enable_form: false
 ---
 
