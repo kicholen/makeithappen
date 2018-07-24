@@ -21,7 +21,8 @@ content: >-
 
 
   Jeśli masz jakiekolwiek pytania dotyczące prywatności, prosimy o kontakt
-  poprzez [formularz](/form) lub [mail. ](/mail)
+  poprzez [formularz](/form) lub pod adresem mailowym
+  makeithappen.wroclaw@gmail.com
 enable_form: false
 ---
 
