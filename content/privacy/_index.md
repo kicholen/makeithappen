@@ -20,7 +20,8 @@ content: >-
   typ przeglądarki oraz urządzenia)
 
 
-  Jeśli masz jakiekolwiek pytania dotyczące prywatności, prosimy o kontakt /form
+  Jeśli masz jakiekolwiek pytania dotyczące prywatności, prosimy o kontakt
+  [/form](/form)
 enable_form: false
 ---
 
