@@ -21,9 +21,11 @@ right_content: >-
 
   * Wszystko w przystępnej cenie.
 
-  * Wydaje Ci się to zbyt proste? Z nami właśnie takie jest.
 
-  * Masz dodatkowe życzenia bądź pytania? Skontaktuj się z nami! Razem na pewno
+  Wydaje Ci się to zbyt proste? Z nami właśnie takie jest.
+
+
+  Masz dodatkowe życzenia bądź pytania? Skontaktuj się z nami! Razem na pewno
   coś wymyślimy.
 enable_form: false
 ---

@@ -12,11 +12,11 @@ form_email_prompt: Wpisz adres email
 form_product: Rodzaj produktu
 form_product_prompt: Wybierz produkt
 form_telephone: Telefon
-form_telephone_prompt: Podaj nr tel.
-form_date: Data uroczystości
+form_telephone_prompt: Podaj swój nr tel.
+form_date: Okres wypożyczenia
 form_count: Ilość sztuk
 form_count_prompt: 1
-form_question: Tekst zapytania
+form_question: Treść zapytania
 form_question_prompt: W czym możemy Ci pomóc?
 navbar:
   - title: O NAS
