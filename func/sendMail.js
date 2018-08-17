@@ -14,6 +14,7 @@ exports.handler = function(event, context, callback) {
             accessToken: process.env.ACCESS_TOKEN
         }
     });
+    console.log(event.body);
 
     transporter.sendMail({
         from: process.env.MAIL_LOGIN,

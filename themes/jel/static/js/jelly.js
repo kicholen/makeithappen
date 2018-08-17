@@ -31,18 +31,6 @@
           }
         }
       });
-      /*$('.navbar-toggle').on('click', function() {
-        var checkIf = $(this).parent()[1]
-        var parent = $(this).parent().parent().parent();
-        if (parent.hasClass("affix-top")) {
-          parent.attr('style', 'background-color: rgba(0, 0, 0, 0.7)');
-          console.log("has");
-        }
-        else {
-          parent.removeAttr('style');
-          console.log("do not has");
-        }
-      });*/
 
     	var my_json;
   		$.getJSON("", function(json) {
@@ -201,14 +189,12 @@
           + "Tekst: " + $('#contact-question').val();
 
         // send 
+        fbq('track', 'Lead');
         $.ajax({
             type: "POST",
             url: "/.netlify/functions/sendMail",
             data: dataToSend,
             success: function(data, text, xhr) {
-              console.log(data);
-              console.log(text);
-              console.log(xhr);
 
               var alertBox = '<div id="jelly-alert" class="alert alert-success alert-dismissable alert-fixed"><button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>Wysłano!</div>';
               $('#messages').html(alertBox);
@@ -220,9 +206,6 @@
               $('#submit').text(submitText);
             },
             error: function(data, text, error) {
-              console.log(data);
-              console.log(text);
-              console.log(error);
               var alertBox = '<div id="jelly-alert" class="alert alert-warning alert-dismissable alert-fixed"><button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>Oops, wystąpił błąd, przepraszamy.</div>';
               $('#messages').html(alertBox);
               $('#submit').removeClass("disabled");
