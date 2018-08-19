@@ -189,13 +189,11 @@
           + "Tekst: " + $('#contact-question').val();
 
         // send 
-        fbq('track', 'Lead');
         $.ajax({
             type: "POST",
             url: "/.netlify/functions/sendMail",
             data: dataToSend,
             success: function(data, text, xhr) {
-
               var alertBox = '<div id="jelly-alert" class="alert alert-success alert-dismissable alert-fixed"><button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>Wysłano!</div>';
               $('#messages').html(alertBox);
               $("#jelly-alert").delay(3000).slideUp(200, function() {
@@ -204,6 +202,7 @@
               $('#contact-form')[0].reset();
               $('#submit').removeClass("disabled");
               $('#submit').text(submitText);
+              fbq('track', 'Lead');
             },
             error: function(data, text, error) {
               var alertBox = '<div id="jelly-alert" class="alert alert-warning alert-dismissable alert-fixed"><button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>Oops, wystąpił błąd, przepraszamy.</div>';
