@@ -2,7 +2,7 @@
 title: Make It Happen
 about_image: /images/justa-monika-102.jpg
 about_title: O NAS
-about_description: Pierwsza wypożyczalnia dekoracji we Wrocławiu
+about_description: Wrocławska wypożyczalnia dekoracji
 about_url: /about
 decors_title: DEKORACJE
 decors_description: Dzięki nam będzie pięknie
