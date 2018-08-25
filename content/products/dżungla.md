@@ -12,5 +12,9 @@ images:
   - image: /images/justa-monika-059.jpg
   - image: /images/justa-monika-060.jpg
   - {}
+booked_dates:
+  - date: '2019-07-06'
+  - date: '2019-07-07'
+  - date: '2019-07-08'
 ---
 
