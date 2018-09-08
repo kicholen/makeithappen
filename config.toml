@@ -4,6 +4,8 @@ title = "Make It Happen"
 theme = "jel"
 MetaDataFormat = "yaml"
 sectionPagesMenu = "main"
+enableRobotsTXT = true
+canonifyURLs = true
 
 [outputs]
     home = ["HTML"]

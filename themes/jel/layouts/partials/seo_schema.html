@@ -1,0 +1,35 @@
+<meta property="og:locale" content="pl_PL">
+<meta property="og:type" content="article">
+<meta property="og:title" content="{{ if .Params.SEO_Title }}{{ .Params.SEO_Title }}{{ else }}{{ .Title }}{{ end }}">
+<meta property="og:url" content="{{ .Site.BaseURL }}">
+<meta property="og:description" content="{{ if .Params.SEO_Summary }}{{ .Params.SEO_Summary }}{{ else }}{{ .Summary }}{{ end }}">
+{{ if .Params.image }}
+    <meta property="og:image" content="{{ .Params.image | absURL }}">
+{{ else }} 
+    {{ if .Params.images }}
+        {{ range $index, $element := .Params.images }}
+            {{ $.Scratch.Set "active" (eq 0 $index) }}
+            {{ $active := $.Scratch.Get "active" }}
+                {{ if $active }}
+                    <meta property="og:image" content="{{ $element.image | absURL }}">
+                {{end}}
+        {{ end }}
+    {{ else }}
+        {{ if .Params.about_image }}
+            <meta property="og:image" content="{{ .Params.about_image | absURL }}">
+        {{ end }}
+    {{ end }}
+{{ end }}
+<meta name="twitter:card" content="summary">
+<script type="application/ld+json">
+{
+    "@context" : "http://schema.org",
+    "@type" : "Organization",
+    "name" : "{{ if .Params.SEO_Title }}{{ .Params.SEO_Title }}{{ else }}{{ .Title }}{{ end }}",
+    "description" : "{{ if .Params.SEO_Summary }}{{ .Params.SEO_Summary }}{{ else }}{{ .Summary }}{{ end }}",
+    "inLanguage" : "pl-PL",
+    "url" : "{{ .Permalink }}",
+    "department" : "Wypożyczalnia dekoracji ślubnych",
+    "brand" : "Make It Happen"
+}
+</script>

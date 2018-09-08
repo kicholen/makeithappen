@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="pl">
 <head>
 	{{ partial "meta.html" . }}
-
-	<title>{{ .Title }} - {{ .Site.BaseURL }}</title>
+	{{ partial "seo_schema.html" . }}
+	<title>{{ if .Params.SEO_Title }}{{ .Params.SEO_Title }}{{ else }}{{ .Title }}{{ end }}</title>
 	<link rel="canonical" href="{{ .Permalink }}">
     {{ partial "header_includes.html" . }}
     {{ partial "facebook_pixel.html" . }}

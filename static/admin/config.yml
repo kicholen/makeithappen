@@ -12,6 +12,9 @@ collections:
     create: true
     fields:
       - {label: Title, name: title, widget: string}
+      - {label: SEO_Title, name: seo_title, widget: string}
+      - {label: SEO_Summary, name: seo_summary, widget: string}
+      - {label: SEO_Keywords, name: seo_keywords, widget: string}
       - {label: Description, name: description, widget: string, required: false}
       - {label: Small_Description, name: small_description, widget: string, required: false}
       - {label: Thumbnail, name: thumbnail, widget: image, required: true}
@@ -33,6 +36,9 @@ collections:
     create: true
     fields:
       - {label: Title, name: title, widget: string}
+      - {label: SEO_Title, name: seo_title, widget: string}
+      - {label: SEO_Summary, name: seo_summary, widget: string}
+      - {label: SEO_Keywords, name: seo_keywords, widget: string}
       - {label: Thumbnail, name: thumbnail, widget: image, required: true}
       - label: Images
         name: images
@@ -45,6 +51,9 @@ collections:
     create: true
     fields:
       - {label: Title, name: title, widget: string}
+      - {label: SEO_Title, name: seo_title, widget: string}
+      - {label: SEO_Summary, name: seo_summary, widget: string}
+      - {label: SEO_Keywords, name: seo_keywords, widget: string}
       - {label: Description, name: description, widget: string, required: false}
       - {label: Small_Description, name: small_description, widget: string, required: false}
       - {label: Thumbnail, name: thumbnail, widget: image, required: true}
@@ -100,6 +109,9 @@ collections:
         create: false
         fields:
           - {label: Title, name: title, widget: string}
+          - {label: SEO_Title, name: seo_title, widget: string}
+          - {label: SEO_Summary, name: seo_summary, widget: string}
+          - {label: SEO_Keywords, name: seo_keywords, widget: string}
           - {label: Description, name: description, widget: string, required: false}
           - {label: Small_Description, name: small_description, widget: string, required: false}
           - {label: Background_Image, name: image, widget: image, required: false}
@@ -116,6 +128,9 @@ collections:
         create: false
         fields:
           - {label: Title, name: title, widget: string}
+          - {label: SEO_Title, name: seo_title, widget: string}
+          - {label: SEO_Summary, name: seo_summary, widget: string}
+          - {label: SEO_Keywords, name: seo_keywords, widget: string}
           - {label: Description, name: description, widget: string, required: false}
           - {label: Small_Description, name: small_description, widget: string, required: false}
           - {label: Background_Image, name: image, widget: image, required: false}
@@ -137,6 +152,9 @@ collections:
         create: false
         fields:
           - {label: Title, name: title, widget: string}
+          - {label: SEO_Title, name: seo_title, widget: string}
+          - {label: SEO_Summary, name: seo_summary, widget: string}
+          - {label: SEO_Keywords, name: seo_keywords, widget: string}
           - {label: Description, name: description, widget: string, required: false}
           - {label: Small_Description, name: small_description, widget: string, required: false}
           - {label: Background_Image, name: image, widget: image, required: false}
@@ -153,6 +171,9 @@ collections:
         create: false
         fields:
           - {label: Title, name: title, widget: string}
+          - {label: SEO_Title, name: seo_title, widget: string}
+          - {label: SEO_Summary, name: seo_summary, widget: string}
+          - {label: SEO_Keywords, name: seo_keywords, widget: string}
           - {label: Description, name: description, widget: string, required: false}
           - {label: Small_Description, name: small_description, widget: string, required: false}
           - {label: Background_Image, name: image, widget: image, required: false}
@@ -170,6 +191,9 @@ collections:
         create: false
         fields:
           - {label: Title, name: title, widget: string}
+          - {label: SEO_Title, name: seo_title, widget: string}
+          - {label: SEO_Summary, name: seo_summary, widget: string}
+          - {label: SEO_Keywords, name: seo_keywords, widget: string}
           - {label: About_image, name: about_image, widget: image}
           - {label: About_title, name: about_title, widget: string}
           - {label: About_description, name: about_description, widget: string}
@@ -207,6 +231,9 @@ collections:
         create: false
         fields:
           - {label: Title, name: title, widget: string}
+          - {label: SEO_Title, name: seo_title, widget: string}
+          - {label: SEO_Summary, name: seo_summary, widget: string}
+          - {label: SEO_Keywords, name: seo_keywords, widget: string}
           - {label: Description, name: description, widget: string, required: false}
           - {label: Small_Description, name: small_description, widget: string, required: false}
           - {label: Background_Image, name: image, widget: image, required: false}
@@ -219,6 +246,9 @@ collections:
         create: false
         fields:
           - {label: Title, name: title, widget: string}
+          - {label: SEO_Title, name: seo_title, widget: string}
+          - {label: SEO_Summary, name: seo_summary, widget: string}
+          - {label: SEO_Keywords, name: seo_keywords, widget: string}
           - {label: Description, name: description, widget: string, required: false}
           - {label: Small_Description, name: small_description, widget: string, required: false}
           - {label: Background_Image, name: image, widget: image, required: false}
