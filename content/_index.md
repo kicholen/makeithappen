@@ -1,5 +1,11 @@
 ---
 title: Make It Happen
+seo_title: Make It Happen - Wrocławska wypożyczalnia dekoracji
+seo_summary: >-
+  Nie masz pomysłu na dekorację swojej uroczystości? A może wręcz przeciwnie,
+  dokładnie wiesz czego szukasz i właśnie my to mamy? Nieważne z jakiego powodu
+  do nas trafiłeś, jesteśmy pewne, że sprostamy Twoim wymaganiom.
+seo_keywords: 'wypożyczalnia, wesela, ślub, przygotowania, dekoracje'
 about_image: /images/justa-monika-102.jpg
 about_title: O NAS
 about_description: Wrocławska wypożyczalnia dekoracji
