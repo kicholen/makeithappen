@@ -1,4 +1,4 @@
-baseURL = "https://www.mith.pl/"
+baseURL = "https://mith.pl/"
 languageCode = "en-us"
 title = "Make It Happen"
 theme = "jel"
