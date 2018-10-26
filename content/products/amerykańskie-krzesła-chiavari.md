@@ -1,5 +1,10 @@
 ---
 title: Amerykańskie Krzesła Chiavari
+seo_title: Make it happen- wrocławska wypożyczalnia dekoracji
+seo_summary: Krzesła Chiavari- wypożyczalnia dekoracji Make it happen
+seo_keywords: >-
+  krzesła, krzesla, Chiavari, krzesła Chiavari, wypożyczalnia krzeseł,
+  wypożyczalnia dekoracji
 description: DEKORACJE / Krzesła
 small_description: ''
 thumbnail: /images/justa-monika-105.jpg
@@ -44,6 +49,10 @@ content: >-
     ](/how)
 images:
   - image: /images/justa-monika-105.jpg
+  - image: /images/img_6386.jpg
+  - image: /images/img_6384.jpg
+  - image: /images/img_6387.jpg
+  - image: /images/img_6388.jpg
 booked_dates:
   - date: '2018-06-01'
   - date: '2018-06-02'
