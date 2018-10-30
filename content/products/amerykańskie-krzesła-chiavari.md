@@ -49,6 +49,7 @@ content: >-
     ](/how)
 images:
   - image: /images/justa-monika-105.jpg
+  - image: /images/img_6386.jpg
 booked_dates:
   - date: '2018-06-01'
   - date: '2018-06-02'
