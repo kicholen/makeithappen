@@ -34,7 +34,7 @@ decors_image_fourth: /images/justa-monika-022.jpg
 decors_title_fourth: Metalowe dekoracje
 decors_url_fourth: /decors/category/flowers
 how_title: JAK DZIAŁAMY?
-how_description: Z nami wszystko jest proste
+how_description: Realizujemy Wasze ślubne marzenia
 how_complex_description: >-
   Masz pytania dotyczące wypożyczenia dekoracji? Tutaj na pewno znajdziesz
   wszystkie potrzebne informacje. 
