@@ -12,7 +12,7 @@ about_title: O NAS
 about_description: Wrocławska wypożyczalnia dekoracji
 about_url: /about
 decors_title: DEKORACJE
-decors_description: Dzięki naszym dekoracją Twoje wesele będzie wyjątkowe
+decors_description: Dzięki naszym dekoracją Wasze wesele będzie wyjątkowe
 decors_complex_description: >-
   Nie masz pomysłu na dekorację swojej uroczystości?
 
