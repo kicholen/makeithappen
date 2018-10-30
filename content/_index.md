@@ -1,12 +1,12 @@
 ---
 title: Make It Happen
-seo_title: Make It Happen - Wrocławska wypożyczalnia dekoracji
+seo_title: Make It Happen - wrocławska wypożyczalnia dekoracji
 seo_summary: >-
-  W swojej ofercie posiadamy krzesła Chiavari, ścianki dekoracyjne, papierowe
-  kwiaty, metalowe stelaże i wiele innych. Nie zwlekaj zarezerwuj już dziś.
+  W swojej ofercie posiadamy krzesła Chiavari, ścianki weselne, papierowe
+  kwiaty, podtalerze i wiele innych. Nie zwlekaj zarezerwuj już dziś.
 seo_keywords: >-
-  wypożyczalnia, wesele, ślub, przygotowania, dekoracje ślubne, dekoracje,
-  chiavari, podtalerze
+  ścianki dekoracyjne, ścianki za młodą parę, ścianki weselne, dekoracje,
+  krzesła, krzesła Chiavari, podtalerze
 about_image: /images/justa-monika-102.jpg
 about_title: O NAS
 about_description: Wrocławska wypożyczalnia dekoracji
