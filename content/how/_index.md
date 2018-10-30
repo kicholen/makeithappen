@@ -1,5 +1,10 @@
 ---
 title: JAK DZIAŁAMY?
+seo_title: Make it happen- wrocławska wypożyczalnia dekoracji
+seo_summary: 'Sprawimy, że Twoje wesele będzie wyjątkowe'
+seo_keywords: >-
+  ścianki dekoracyjne, ścianki za młodą parę, ścianki weselne, dekoracje,
+  krzesła, krzesła Chiavari, podtalerze
 description: Z nami wszystko jest proste
 small_description: ''
 image: /images/justa-monika-014.jpg
