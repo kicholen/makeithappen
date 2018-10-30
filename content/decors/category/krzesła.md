@@ -8,6 +8,6 @@ seo_keywords: >-
 description: Krzesła Chiavari to kropka nad "i" każdej weselnej aranżacji
 thumbnail: /images/mini1.png
 products:
-  - path: Amerykańskie Krzesła Chiavari
+  - path: Krzesła Chiavari
 ---
 
