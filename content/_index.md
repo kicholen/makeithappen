@@ -12,7 +12,7 @@ about_title: O NAS
 about_description: Wrocławska wypożyczalnia dekoracji
 about_url: /about
 decors_title: DEKORACJE
-decors_description: Dzięki nam będzie pięknie
+decors_description: Dzięki naszym dekoracją Twoje wesele będzie wyjątkowe
 decors_complex_description: >-
   Nie masz pomysłu na dekorację swojej uroczystości?
 
@@ -44,7 +44,7 @@ how_image_second: /images/justa-monika-017.jpg
 how_image_third: /images/justa-monika-034.jpg
 more_text: WIĘCEJ
 form_title: FORMULARZ
-form_description: 'Co potrzeba, co w duszy gra'
+form_description: 'Nie zwlekaj, wypożycz już dziś'
 form_complex_description: >-
   Skorzystaj z formularza by szybko uzyskać niezbędne informacje. Zachęcamy do
   wyboru tej formy kontaktu.
