@@ -1,5 +1,5 @@
 ---
-title: Amerykańskie Krzesła Chiavari
+title: Krzesła Chiavari
 seo_title: Make it happen- wrocławska wypożyczalnia dekoracji
 seo_summary: Krzesła Chiavari- wypożyczalnia dekoracji Make it happen
 seo_keywords: >-
