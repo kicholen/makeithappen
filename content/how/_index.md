@@ -1,6 +1,6 @@
 ---
 title: JAK DZIAŁAMY?
-seo_title: Make it happen- wrocławska wypożyczalnia dekoracji
+seo_title: Wypożyczalnia dekoracji Make it happen
 seo_summary: 'Sprawimy, że Twoje wesele będzie wyjątkowe'
 seo_keywords: >-
   ścianki dekoracyjne, ścianki za młodą parę, ścianki weselne, dekoracje,
