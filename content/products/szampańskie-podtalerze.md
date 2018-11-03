@@ -1,6 +1,6 @@
 ---
 title: Szampańskie podtalerze
-seo_title: Make it happen- wrocławska wypożyczalnia dekoracji
+seo_title: Wypożyczalnia dekoracji Make it happen
 seo_summary: 'Podtalerze, idealna ozdoba każdej uroczystości.'
 seo_keywords: >-
   podtalerze, talerze, pod-talerze, wypożyczalnia dekoracji, wypozyczalnia
