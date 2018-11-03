@@ -1,6 +1,14 @@
 ---
 title: NASZE REALIZACJE
-description: W taki sposób realizujemy Wasze marzenia
+seo_title: Wypożyczalnia dekoracji Make it happen
+seo_summary: >-
+  W swojej ofercie posiadamy: krzesła Chiavari, ścianki za młodą parę,
+  podtalerze i wiele innych weselnych dekoracji. 
+seo_keywords: >-
+  dekoracje ślubne, dekoracje weselne, dekoracja sali weselnej, ozdoby ślubne,
+  dekoracje sal weselnych, wystrój sali weselnej, ścianka weselna, ścianka za
+  młodymi, wypożyczalnia dekoracji, wypożyczalnia dekoracji Wrocław, chiavari
+description: Dekoracje sal weselnych w naszym wydaniu
 small_description: ''
 image: ''
 enable_form: false
