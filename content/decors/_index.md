@@ -1,6 +1,6 @@
 ---
 title: DEKORACJE
-seo_title: Make it happen- wrocławska wypożyczalnia dekoracji
+seo_title: Wypożyczalnia dekoracji Make it happen
 seo_summary: >-
   W swojej ofercie posiadamy krzesła Chiavari, ścianki za młodą parę, podtalerze
   i wiele innych. Nie zwlekaj, wypożycz już dziś.
