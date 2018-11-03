@@ -3,8 +3,9 @@ title: Krzesła Chiavari
 seo_title: Make it happen- wrocławska wypożyczalnia dekoracji
 seo_summary: Krzesła Chiavari- wypożyczalnia dekoracji Make it happen
 seo_keywords: >-
-  krzesła, krzesla, Chiavari, krzesła Chiavari, wypożyczalnia krzeseł,
-  wypożyczalnia dekoracji
+  dekoracje ślubne, dekoracje weselne, dekoracja sali weselnej, ozdoby ślubne,
+  dekoracje sal weselnych, wystrój sali weselnej, krzesła, krzesla, Chiavari,
+  krzesła Chiavari, wypożyczalnia krzeseł, wypożyczalnia dekoracji
 description: DEKORACJE / Krzesła
 small_description: ''
 thumbnail: /images/justa-monika-105.jpg
