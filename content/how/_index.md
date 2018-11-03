@@ -5,7 +5,7 @@ seo_summary: 'Sprawimy, że Twoje wesele będzie wyjątkowe'
 seo_keywords: >-
   ścianki dekoracyjne, ścianki za młodą parę, ścianki weselne, dekoracje,
   krzesła, krzesła Chiavari, podtalerze
-description: Realizujemy Wasze ślubne marzenia
+description: Oferujemy wyjątkowe dekoracje sal weselnych
 small_description: ''
 image: /images/justa-monika-014.jpg
 blend: false
