@@ -1,6 +1,6 @@
 ---
 title: Metalowe kwiaty
-seo_title: Make it happen- wrocławska wypożyczalnia dekoracji
+seo_title: Wypożyczalnia dekoracji Make it happen
 seo_summary: ' W swojej ofercie posiadamy: krzesła Chiavari, ścianki za młodą parę, podtalerze i wiele innych weselnych dekoracji. '
 seo_keywords: >-
   dekoracje ślubne, dekoracje weselne, dekoracja sali weselnej, ozdoby ślubne,
