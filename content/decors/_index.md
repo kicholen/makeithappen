@@ -7,7 +7,7 @@ seo_summary: >-
 seo_keywords: >-
   ścianki dekoracyjne, ścianki za młodą parę, ścianki weselne, dekoracje,
   krzesła, krzesła Chiavari, podtalerze
-description: U nas znajdziesz niezwykłe dekoracje ślubne
+description: Znajdziesz tu niezwykłe dekoracje ślubne
 small_description: 'wybierz kategorie, która Ciebie interesuje'
 enable_form: false
 category:
