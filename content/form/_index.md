@@ -1,6 +1,6 @@
 ---
 title: FORMULARZ
-seo_title: Make it happen- wrocławska wypożyczalnia dekoracji
+seo_title: Wypożyczalnia dekoracji Make it happen
 seo_summary: Skontaktuj się z nami i wypożycz dekoracje już dziś.
 seo_keywords: >-
   ścianki dekoracyjne, ścianki za młodą parę, ścianki weselne, dekoracje,
