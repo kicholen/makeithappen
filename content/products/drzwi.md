@@ -1,6 +1,6 @@
 ---
 title: Drzwi
-seo_title: Make it happen- wrocławska wypożyczalnia dekoracji
+seo_title: Wypożyczalnia dekoracji Make it happen
 seo_summary: >-
   W swojej ofercie posiadamy krzesła Chiavari, ścanki dekoracyjne, podtalerze i
   wiele innych dekoracji. 
