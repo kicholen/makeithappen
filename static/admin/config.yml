@@ -74,6 +74,7 @@ collections:
         name: data
         file: content/data/_index.md
         create: false
+        delete: false
         fields:
           - {label: Title, name: title, widget: string}
           - {label: Mail, name: mail, widget: string, required: false}
@@ -107,6 +108,7 @@ collections:
         name: about
         file: content/about/_index.md
         create: true
+        delete: false
         fields:
           - {label: Title, name: title, widget: string}
           - {label: SEO_Title, name: seo_title, widget: string}
@@ -116,9 +118,6 @@ collections:
           - {label: Small_Description, name: small_description, widget: string, required: false}
           - {label: Background_Image, name: image, widget: image, required: false}
           - {label: Add_Blend, name: blend, widget: boolean, required: false}
-          - {label: First_image, name: first_thumbnail, widget: image}
-          - {label: Second_Image, name: second_thumbnail, widget: image}
-          - {label: Third_Image, name: third_thumbnail, widget: image}
           - {label: Content, name: content, widget: markdown}
           - {label: Right_Content, name: right_content, widget: markdown}
           - {label: Is_form, name: enable_form, widget: boolean}
@@ -126,6 +125,7 @@ collections:
         name: decors
         file: content/decors/_index.md
         create: true
+        delete: false
         fields:
           - {label: Title, name: title, widget: string}
           - {label: SEO_Title, name: seo_title, widget: string}
@@ -150,6 +150,7 @@ collections:
         name: projects
         file: content/projects/_index.md
         create: true
+        delete: false
         fields:
           - {label: Title, name: title, widget: string}
           - {label: SEO_Title, name: seo_title, widget: string}
@@ -169,6 +170,7 @@ collections:
         name: how
         file: content/how/_index.md
         create: true
+        delete: false
         fields:
           - {label: Title, name: title, widget: string}
           - {label: SEO_Title, name: seo_title, widget: string}
@@ -189,6 +191,7 @@ collections:
         name: home
         file: content/_index.md
         create: true
+        delete: false
         fields:
           - {label: Title, name: title, widget: string}
           - {label: SEO_Title, name: seo_title, widget: string}
@@ -229,6 +232,7 @@ collections:
         name: form
         file: content/form/_index.md
         create: true
+        delete: false
         fields:
           - {label: Title, name: title, widget: string}
           - {label: SEO_Title, name: seo_title, widget: string}
@@ -244,6 +248,7 @@ collections:
         name: privacy
         file: content/privacy/_index.md
         create: true
+        delete: false
         fields:
           - {label: Title, name: title, widget: string}
           - {label: SEO_Title, name: seo_title, widget: string}
