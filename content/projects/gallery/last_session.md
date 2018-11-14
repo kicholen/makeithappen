@@ -5,10 +5,10 @@ seo_summary: >-
   W swojej ofercie posiadamy: krzesła Chiavari, ścianki za młodą parę,
   podtalerze i wiele innych weselnych dekoracji. 
 seo_keywords: ' dekoracje ślubne, dekoracje weselne, dekoracja sali weselnej, ozdoby ślubne, dekoracje sal weselnych, wystrój sali weselnej, ścianka weselna, ścianka za młodymi, wypożyczalnia dekoracji, wypożyczalnia dekoracji Wrocław, chiavari'
-thumbnail: /images/2017.06.15-justyna-i-andrzej-repo_072.jpg
+thumbnail: /images/1.jpg
 images:
-  - image: /images/2017.06.15-justyna-i-andrzej-repo_069.jpg
-  - image: /images/2017.06.15-justyna-i-andrzej-repo_070.jpg
-  - image: /images/2017.06.15-justyna-i-andrzej-repo_071.jpg
+  - image: /images/2.jpg
+  - image: /images/3.jpg
+  - image: /images/4.jpg
 ---
 
