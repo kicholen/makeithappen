@@ -7,7 +7,7 @@ seo_summary: >-
 seo_keywords: >-
   ścianki dekoracyjne, ścianki za młodą parę, ścianki weselne, dekoracje,
   krzesła, krzesła Chiavari, podtalerze
-about_image: /images/justa-monika-102.jpg
+about_image: /images/justa-monika-102-small.jpg
 about_title: O NAS
 about_description: Wrocławska wypożyczalnia dekoracji
 about_url: /about
@@ -21,16 +21,16 @@ decors_complex_description: >-
   Nieważne z jakiego powodu do nas trafiłeś, jesteśmy pewne, że sprostamy Twoim
   wymaganiom.
 decors_url: /decors
-decors_image_first: /images/justa-monika-105.jpg
+decors_image_first: /images/justa-monika-105-small.jpg
 decors_title_first: Krzesła
 decors_url_first: /decors/category/krzesła
-decors_image_second: /images/justa-monika-012.jpg
+decors_image_second: /images/justa-monika-012-small.jpg
 decors_title_second: Ścianki
 decors_url_second: /decors/category/scianki
-decors_image_third: /images/justa-monika-087.jpg
+decors_image_third: /images/justa-monika-087-small.jpg
 decors_title_third: Podtalerze
 decors_url_third: /decors/category/podtalerze
-decors_image_fourth: /images/justa-monika-022.jpg
+decors_image_fourth: /images/justa-monika-022-small.jpg
 decors_title_fourth: Metalowe dekoracje
 decors_url_fourth: /decors/category/flowers
 how_title: JAK DZIAŁAMY?
@@ -39,9 +39,9 @@ how_complex_description: >-
   Masz pytania dotyczące wypożyczenia dekoracji? Tutaj na pewno znajdziesz
   wszystkie potrzebne informacje. 
 how_url: /decors
-how_image_first: /images/justa-monika-081.jpg
-how_image_second: /images/justa-monika-017.jpg
-how_image_third: /images/justa-monika-034.jpg
+how_image_first: /images/justa-monika-081-small.jpg
+how_image_second: /images/justa-monika-017-small.jpg
+how_image_third: /images/justa-monika-034-small.jpg
 more_text: WIĘCEJ
 form_title: FORMULARZ
 form_description: 'Nie zwlekaj, wypożycz już dziś'
