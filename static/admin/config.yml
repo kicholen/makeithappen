@@ -106,7 +106,7 @@ collections:
       - label: About page
         name: about
         file: content/about/_index.md
-        create: false
+        create: true
         fields:
           - {label: Title, name: title, widget: string}
           - {label: SEO_Title, name: seo_title, widget: string}
@@ -125,7 +125,7 @@ collections:
       - label: Decors page
         name: decors
         file: content/decors/_index.md
-        create: false
+        create: true
         fields:
           - {label: Title, name: title, widget: string}
           - {label: SEO_Title, name: seo_title, widget: string}
@@ -149,7 +149,7 @@ collections:
       - label: Projects page
         name: projects
         file: content/projects/_index.md
-        create: false
+        create: true
         fields:
           - {label: Title, name: title, widget: string}
           - {label: SEO_Title, name: seo_title, widget: string}
@@ -168,7 +168,7 @@ collections:
       - label: How page
         name: how
         file: content/how/_index.md
-        create: false
+        create: true
         fields:
           - {label: Title, name: title, widget: string}
           - {label: SEO_Title, name: seo_title, widget: string}
@@ -188,7 +188,7 @@ collections:
       - label: Home page
         name: home
         file: content/_index.md
-        create: false
+        create: true
         fields:
           - {label: Title, name: title, widget: string}
           - {label: SEO_Title, name: seo_title, widget: string}
@@ -228,7 +228,7 @@ collections:
       - label: Form page
         name: form
         file: content/form/_index.md
-        create: false
+        create: true
         fields:
           - {label: Title, name: title, widget: string}
           - {label: SEO_Title, name: seo_title, widget: string}
@@ -243,7 +243,7 @@ collections:
       - label: Privacy page
         name: privacy
         file: content/privacy/_index.md
-        create: false
+        create: true
         fields:
           - {label: Title, name: title, widget: string}
           - {label: SEO_Title, name: seo_title, widget: string}
