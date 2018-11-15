@@ -11,5 +11,8 @@ content: "Podstawki, podkładki pod talerze czy po prostu podtalerze jako nowa k
 images:
   - image: /images/justa-monika-087.jpg
   - image: /images/bez-nazwy-2.jpg
+  - image: /images/justa-monika-092.jpg
+  - image: /images/bez-nazwy-1.jpg
+  - {}
 ---
 
