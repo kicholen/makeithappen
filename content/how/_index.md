@@ -7,7 +7,7 @@ seo_keywords: >-
   krzesła, krzesła Chiavari, podtalerze
 description: Oferujemy wyjątkowe dekoracje sal weselnych
 small_description: ''
-image: /images/dekoracja-sali-weslene.jpg
+image: /images/9.jpg
 blend: false
 enable_form: false
 features:
