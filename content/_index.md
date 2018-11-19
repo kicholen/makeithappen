@@ -7,7 +7,7 @@ seo_summary: >-
 seo_keywords: >-
   ścianki dekoracyjne, ścianki za młodą parę, ścianki weselne, dekoracje,
   krzesła, krzesła Chiavari, podtalerze
-about_image: /images/justa-monika-102-small.jpg
+about_image: /images/62.jpg
 about_title: O NAS
 about_description: Wrocławska wypożyczalnia dekoracji
 about_url: /about
