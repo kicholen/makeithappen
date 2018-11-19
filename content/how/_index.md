@@ -7,7 +7,7 @@ seo_keywords: >-
   krzesła, krzesła Chiavari, podtalerze
 description: Oferujemy wyjątkowe dekoracje sal weselnych
 small_description: ''
-image: /images/justa-monika-014.jpg
+image: /images/7.jpg
 blend: false
 enable_form: false
 features:
