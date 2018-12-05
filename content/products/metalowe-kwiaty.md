@@ -1,5 +1,5 @@
 ---
-title: Metalowe kwiaty
+title: Papierowe kwiaty
 seo_title: Wypożyczalnia dekoracji Make it happen
 seo_summary: ' W swojej ofercie posiadamy: krzesła Chiavari, ścianki za młodą parę, podtalerze i wiele innych weselnych dekoracji. '
 seo_keywords: >-
