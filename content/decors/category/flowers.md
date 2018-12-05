@@ -9,9 +9,9 @@ seo_keywords: >-
 description: Zaskocz swoich gości
 thumbnail: /images/mini3.png
 products:
-  - path: Metalowe kwiaty
   - path: Metalowe okręgi
   - path: Miedziane stelaże
   - path: Łapacze snów
+  - path: Papierowe kwiaty
 ---
 
