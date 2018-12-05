@@ -31,7 +31,7 @@ decors_image_third: /images/justa-monika-087-small.jpg
 decors_title_third: Podtalerze
 decors_url_third: /decors/category/podtalerze
 decors_image_fourth: /images/justa-monika-022-small.jpg
-decors_title_fourth: Metalowe dekoracje
+decors_title_fourth: Inne dekoracje
 decors_url_fourth: /decors/category/flowers
 how_title: JAK DZIAŁAMY?
 how_description: Realizujemy Wasze ślubne marzenia
