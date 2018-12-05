@@ -1,5 +1,5 @@
 ---
-title: Metalowe dekoracje
+title: Inne dekoracje
 seo_title: Wypożyczalnia dekoracji Make it happen
 seo_summary: ' W swojej ofercie posiadamy: krzesła Chiavari, ścianki za młodą parę, podtalerze i wiele innych weselnych dekoracji. '
 seo_keywords: >-
@@ -12,5 +12,6 @@ products:
   - path: Metalowe kwiaty
   - path: Metalowe okręgi
   - path: Miedziane stelaże
+  - path: Łapacze snów
 ---
 
