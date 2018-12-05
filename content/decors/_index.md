@@ -14,6 +14,6 @@ category:
   - path: Krzesła
   - path: Podtalerze
   - path: Ścianki
-  - path: Metalowe dekoracje
+  - path: Inne dekoracje
 ---
 
