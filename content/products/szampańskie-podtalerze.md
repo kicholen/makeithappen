@@ -13,6 +13,6 @@ images:
   - image: /images/bez-nazwy-2.jpg
   - image: /images/justa-monika-092.jpg
   - image: /images/bez-nazwy-1.jpg
-  - {}
+  - image: /images/dsc_6472.jpg
 ---
 
