@@ -35,7 +35,7 @@ content: >-
   słoniowej                  
 
   * dostępna ilość: 207 sztuk (minimalna ilość krzeseł do jednorazowego
-  wypożyczenia to 50 sztuk)
+  wypożyczenia to 10 sztuk)
 
   * cena wypożyczenia: 25,00 zł/ sztuka
 
