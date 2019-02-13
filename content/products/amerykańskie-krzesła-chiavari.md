@@ -50,7 +50,7 @@ content: >-
     ](/how)
 images:
   - image: /images/justa-monika-105.jpg
-  - image: /images/img_7032.jpg
+  - image: /images/krzesłą.jpg
   - image: /images/dsc_6024.jpg
 booked_dates:
   - date: '2018-06-01'
