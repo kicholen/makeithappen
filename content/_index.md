@@ -5,11 +5,11 @@ seo_summary: >-
   W swojej ofercie posiadamy krzesła Chiavari, ścianki weselne, papierowe
   kwiaty, podtalerze i wiele innych. Nie zwlekaj zarezerwuj już dziś.
 seo_keywords: >-
-  ścianki dekoracyjne, ścianki za młodą parę, ścianki weselne, dekoracje,
+  ścianki dekoracyjne, ścianka za młodą parę, ścianki weselne, dekoracje,
   krzesła, krzesła Chiavari, podtalerze
 about_image: /images/62.jpg
 about_title: O NAS
-about_description: Wrocławska wypożyczalnia dekoracji
+about_description: Wrocławska wypożyczalnia dekoracji ślubnych
 about_url: /about
 decors_title: DEKORACJE
 decors_description: Dzięki naszym dekoracjom Wasze wesele będzie wyjątkowe
