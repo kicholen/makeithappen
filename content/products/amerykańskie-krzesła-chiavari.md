@@ -49,9 +49,9 @@ content: >-
   * więcej informacji znajdziesz w zakładce [JAK DZIAŁAMY
     ](/how)
 images:
-  - image: /images/justa-monika-105.jpg
   - image: /images/krzesłą.jpg
   - image: /images/dsc_6024.jpg
+  - {}
 booked_dates:
   - date: '2018-06-01'
   - date: '2018-06-02'
