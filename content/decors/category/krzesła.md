@@ -7,7 +7,7 @@ seo_keywords: >-
   dekoracje sal weselnych, wystrój sali weselnej, ścianka weselna, ścianka za
   młodymi, wypożyczalnia dekoracji, wypożyczalnia dekoracji Wrocław, chiavari
 description: Krzesła Chiavari to kropka nad "i" każdej weselnej aranżacji
-thumbnail: /images/justa-monika-105-small.jpg
+thumbnail: /images/mini1.png
 products:
   - path: Krzesła Chiavari
 ---
