@@ -52,6 +52,7 @@ images:
   - image: /images/krzesłą-copy-2-.jpg
   - image: /images/dsc_6024-copy-.jpg
   - image: /images/60707626_405273226995336_9065631730752290816_n-copy-.jpg
+  - image: /images/image1-1-copy-.jpeg
 booked_dates:
   - date: '2018-06-01'
   - date: '2018-06-02'
