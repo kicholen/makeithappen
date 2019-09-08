@@ -49,7 +49,7 @@ content: >-
   * więcej informacji znajdziesz w zakładce [JAK DZIAŁAMY
     ](/how)
 images:
-  - image: /images/krzesłą-copy-2-.jpg
+  - image: /images/img_7032-copy-.jpg
   - image: /images/dsc_6024-copy-.jpg
   - image: /images/60707626_405273226995336_9065631730752290816_n-copy-.jpg
   - image: /images/image1-1-copy-.jpeg
