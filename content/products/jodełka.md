@@ -11,5 +11,6 @@ images:
   - image: /images/ścianka-dekoracyjna.jpg
   - image: /images/wypożyczalnia-ddekoracji.jpg
   - image: /images/wypożyczania-dekoracji-ślubnych.jpg
+  - image: /images/img_4451-copy-2-.jpg
 ---
 
