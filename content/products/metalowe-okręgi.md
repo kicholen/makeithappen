@@ -15,5 +15,6 @@ images:
   - image: /images/metalowy-okręg-ślub-wesele.jpg
   - image: /images/okręgi-na-wesele.jpg
   - image: /images/img_1100-copy-2-.jpg
+  - image: /images/img_1100-copy-.jpg
 ---
 
