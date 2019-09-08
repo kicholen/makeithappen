@@ -14,5 +14,6 @@ images:
   - image: /images/kwiaty-z-papieru-ślub.jpg
   - image: /images/make-it-happen-wypożyczalnia-dekoracji.jpg
   - image: /images/papierowy-kwiat.jpg
+  - image: /images/img_0333-copy-.jpg
 ---
 
