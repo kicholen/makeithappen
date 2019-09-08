@@ -8,7 +8,7 @@ seo_keywords: >-
   krzesła Chiavari, wypożyczalnia krzeseł, wypożyczalnia dekoracji
 description: DEKORACJE / Krzesła
 small_description: ''
-thumbnail: /images/img_6386-copy-.jpg
+thumbnail: /images/krzesłą-copy-.jpg
 content: >-
   Chiavari. Chyba nie trzeba ich przedstawiać. Marzy o nich każda Panna Młoda
   podążająca za obowiązującymi trendami.
