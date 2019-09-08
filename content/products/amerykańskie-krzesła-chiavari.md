@@ -8,7 +8,7 @@ seo_keywords: >-
   krzesła Chiavari, wypożyczalnia krzeseł, wypożyczalnia dekoracji
 description: DEKORACJE / Krzesła
 small_description: ''
-thumbnail: /images/justa-monika-105.jpg
+thumbnail: /images/img_6386-copy-.jpg
 content: >-
   Chiavari. Chyba nie trzeba ich przedstawiać. Marzy o nich każda Panna Młoda
   podążająca za obowiązującymi trendami.
@@ -34,7 +34,7 @@ content: >-
   * siedzisko: przymocowane do krzesła, wykonane z eko skóry w kolorze kości
   słoniowej                  
 
-  * dostępna ilość: 207 sztuk (minimalna ilość krzeseł do jednorazowego
+  * dostępna ilość: 200 sztuk (minimalna ilość krzeseł do jednorazowego
   wypożyczenia to 10 sztuk)
 
   * cena wypożyczenia: 25,00 zł/ sztuka
@@ -52,6 +52,7 @@ images:
   - image: /images/krzesłą.jpg
   - image: /images/dsc_6024.jpg
   - image: /images/60707626_405273226995336_9065631730752290816_n-copy-.jpg
+  - {}
 booked_dates:
   - date: '2018-06-01'
   - date: '2018-06-02'
