@@ -1,7 +1,7 @@
 {
   "dependencies": {
     "netlify-lambda": "^0.4.0",
-    "nodemailer": "^6.4.16",
+    "nodemailer": "^6.6.1",
     "nodemailer-smtp-transport": "^2.7.4"
   }
 }
